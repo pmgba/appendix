@@ -1,0 +1,14 @@
+{
+  "m_regeneration": {
+    "m_intervalSecond": 5.0,
+    "m_hpPercent": 0.01
+  },
+  "m_eye": {
+    "m_radius": 20.0
+  },
+  "m_navMeshAgent": {
+    "m_speed": 10.0,
+    "m_acceleration": 17.0,
+    "m_angularSpeed": 360.0
+  }
+}

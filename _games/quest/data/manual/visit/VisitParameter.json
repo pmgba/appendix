@@ -1,0 +1,36 @@
+{
+  "m_CookPokeNumMin": 1,
+  "m_CookPokeNumMax": 3,
+  "m_CookPokeNumWeights": [
+    200,
+    9,
+    1
+  ],
+  "m_timeVisitNum": 1,
+  "m_timeVisitNumStockMax": 1,
+  "m_HourInterval": 22,
+  "m_TimeRareLotteryCount": 81,
+  "m_CookRareLotteryCount": 81,
+  "m_levelRange": [
+    {
+      "min": 0,
+      "max": 10
+    },
+    {
+      "min": 10,
+      "max": 20
+    },
+    {
+      "min": 20,
+      "max": 30
+    },
+    {
+      "min": 30,
+      "max": 40
+    },
+    {
+      "min": 40,
+      "max": 50
+    }
+  ]
+}

@@ -1,0 +1,3774 @@
+[
+  {
+    "Value": 0.0,
+    "Param": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "NameIndex": 0,
+    "DescIndex": 0,
+    "MatchEffect": 0,
+    "Probability3": 0,
+    "Probability4": 0,
+    "Probability5": 0,
+    "Order": 0,
+    "SkillEffect": 0,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.5,
+    "Param": [
+      1.4,
+      1.8,
+      2.0,
+      3.4
+    ],
+    "NameIndex": 36,
+    "DescIndex": 134,
+    "MatchEffect": 0,
+    "Probability3": 5,
+    "Probability4": 10,
+    "Probability5": 10,
+    "Order": 7,
+    "SkillEffect": 2,
+    "Exp": [
+      3,
+      10,
+      25,
+      50
+    ]
+  },
+  {
+    "Value": 1.5,
+    "Param": [
+      1.5,
+      2.0,
+      2.2,
+      2.7
+    ],
+    "NameIndex": 37,
+    "DescIndex": 135,
+    "MatchEffect": 0,
+    "Probability3": 20,
+    "Probability4": 50,
+    "Probability5": 80,
+    "Order": 8,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      15,
+      40,
+      70
+    ]
+  },
+  {
+    "Value": 1.5,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 38,
+    "DescIndex": 136,
+    "MatchEffect": 0,
+    "Probability3": 40,
+    "Probability4": 70,
+    "Probability5": 100,
+    "Order": 10,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      15,
+      40,
+      70
+    ]
+  },
+  {
+    "Value": 1.5,
+    "Param": [
+      1.5,
+      1.8,
+      2.1,
+      2.4
+    ],
+    "NameIndex": 39,
+    "DescIndex": 137,
+    "MatchEffect": 0,
+    "Probability3": 0,
+    "Probability4": 100,
+    "Probability5": 0,
+    "Order": 18,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.5,
+    "Param": [
+      1.5,
+      1.8,
+      2.1,
+      2.4
+    ],
+    "NameIndex": 40,
+    "DescIndex": 138,
+    "MatchEffect": 0,
+    "Probability3": 0,
+    "Probability4": 0,
+    "Probability5": 100,
+    "Order": 26,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 5.0,
+    "Param": [
+      1.2,
+      1.5,
+      2.0,
+      3.0
+    ],
+    "NameIndex": 41,
+    "DescIndex": 139,
+    "MatchEffect": 0,
+    "Probability3": 50,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 67,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.2,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 42,
+    "DescIndex": 140,
+    "MatchEffect": 0,
+    "Probability3": 60,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 108,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.2,
+    "Param": [
+      1.1,
+      1.3,
+      1.5,
+      2.0
+    ],
+    "NameIndex": 43,
+    "DescIndex": 141,
+    "MatchEffect": 0,
+    "Probability3": 60,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 110,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      1.5,
+      1.8,
+      2.0,
+      2.5
+    ],
+    "NameIndex": 44,
+    "DescIndex": 142,
+    "MatchEffect": 0,
+    "Probability3": 50,
+    "Probability4": 70,
+    "Probability5": 100,
+    "Order": 35,
+    "SkillEffect": 2,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 5.0,
+    "Param": [
+      10.0,
+      20.0,
+      30.0,
+      40.0
+    ],
+    "NameIndex": 45,
+    "DescIndex": 143,
+    "MatchEffect": 0,
+    "Probability3": 60,
+    "Probability4": 80,
+    "Probability5": 100,
+    "Order": 68,
+    "SkillEffect": 1,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 4.0,
+    "Param": [
+      1.1,
+      1.2,
+      2.5,
+      3.5
+    ],
+    "NameIndex": 46,
+    "DescIndex": 144,
+    "MatchEffect": 0,
+    "Probability3": 60,
+    "Probability4": 80,
+    "Probability5": 100,
+    "Order": 69,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      10.0,
+      20.0,
+      30.0,
+      40.0
+    ],
+    "NameIndex": 47,
+    "DescIndex": 145,
+    "MatchEffect": 0,
+    "Probability3": 50,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 72,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 48,
+    "DescIndex": 146,
+    "MatchEffect": 0,
+    "Probability3": 60,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 74,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      20.0,
+      25.0,
+      40.0,
+      50.0
+    ],
+    "NameIndex": 49,
+    "DescIndex": 147,
+    "MatchEffect": 0,
+    "Probability3": 15,
+    "Probability4": 50,
+    "Probability5": 100,
+    "Order": 73,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      20.0,
+      30.0,
+      40.0,
+      60.0
+    ],
+    "NameIndex": 50,
+    "DescIndex": 148,
+    "MatchEffect": 0,
+    "Probability3": 15,
+    "Probability4": 40,
+    "Probability5": 80,
+    "Order": 75,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      20.0,
+      30.0,
+      40.0,
+      60.0
+    ],
+    "NameIndex": 51,
+    "DescIndex": 149,
+    "MatchEffect": 0,
+    "Probability3": 15,
+    "Probability4": 40,
+    "Probability5": 80,
+    "Order": 76,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 50.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      40.0
+    ],
+    "NameIndex": 52,
+    "DescIndex": 150,
+    "MatchEffect": 0,
+    "Probability3": 20,
+    "Probability4": 60,
+    "Probability5": 80,
+    "Order": 96,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 20.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 53,
+    "DescIndex": 151,
+    "MatchEffect": 0,
+    "Probability3": 25,
+    "Probability4": 75,
+    "Probability5": 100,
+    "Order": 98,
+    "SkillEffect": 3,
+    "Exp": [
+      2,
+      9,
+      30,
+      100
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      10.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 54,
+    "DescIndex": 152,
+    "MatchEffect": 0,
+    "Probability3": 15,
+    "Probability4": 30,
+    "Probability5": 60,
+    "Order": 102,
+    "SkillEffect": 1,
+    "Exp": [
+      3,
+      10,
+      25,
+      50
+    ]
+  },
+  {
+    "Value": 1.2,
+    "Param": [
+      10.0,
+      20.0,
+      30.0,
+      40.0
+    ],
+    "NameIndex": 55,
+    "DescIndex": 153,
+    "MatchEffect": 0,
+    "Probability3": 20,
+    "Probability4": 35,
+    "Probability5": 60,
+    "Order": 62,
+    "SkillEffect": 1,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      1.2,
+      1.4,
+      1.5,
+      2.0
+    ],
+    "NameIndex": 56,
+    "DescIndex": 154,
+    "MatchEffect": 0,
+    "Probability3": 10,
+    "Probability4": 50,
+    "Probability5": 100,
+    "Order": 115,
+    "SkillEffect": 2,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      1.1,
+      1.2,
+      1.4,
+      1.6
+    ],
+    "NameIndex": 57,
+    "DescIndex": 155,
+    "MatchEffect": 0,
+    "Probability3": 20,
+    "Probability4": 40,
+    "Probability5": 100,
+    "Order": 116,
+    "SkillEffect": 2,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      2.0,
+      2.5,
+      3.0,
+      4.0
+    ],
+    "NameIndex": 58,
+    "DescIndex": 156,
+    "MatchEffect": 0,
+    "Probability3": 50,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 117,
+    "SkillEffect": 2,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      30.0,
+      40.0,
+      50.0,
+      70.0
+    ],
+    "NameIndex": 59,
+    "DescIndex": 157,
+    "MatchEffect": 1,
+    "Probability3": 30,
+    "Probability4": 50,
+    "Probability5": 100,
+    "Order": 145,
+    "SkillEffect": 1,
+    "Exp": [
+      3,
+      10,
+      25,
+      50
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      20.0,
+      40.0,
+      65.0
+    ],
+    "NameIndex": 60,
+    "DescIndex": 158,
+    "MatchEffect": 1,
+    "Probability3": 25,
+    "Probability4": 35,
+    "Probability5": 100,
+    "Order": 146,
+    "SkillEffect": 1,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      20.0,
+      30.0,
+      40.0
+    ],
+    "NameIndex": 61,
+    "DescIndex": 159,
+    "MatchEffect": 1,
+    "Probability3": 20,
+    "Probability4": 40,
+    "Probability5": 100,
+    "Order": 57,
+    "SkillEffect": 1,
+    "Exp": [
+      3,
+      10,
+      25,
+      50
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      20.0,
+      50.0,
+      70.0
+    ],
+    "NameIndex": 62,
+    "DescIndex": 160,
+    "MatchEffect": 1,
+    "Probability3": 30,
+    "Probability4": 50,
+    "Probability5": 100,
+    "Order": 150,
+    "SkillEffect": 1,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      20.0,
+      40.0,
+      50.0
+    ],
+    "NameIndex": 63,
+    "DescIndex": 161,
+    "MatchEffect": 1,
+    "Probability3": 20,
+    "Probability4": 50,
+    "Probability5": 80,
+    "Order": 151,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      30.0
+    ],
+    "NameIndex": 64,
+    "DescIndex": 162,
+    "MatchEffect": 1,
+    "Probability3": 1,
+    "Probability4": 5,
+    "Probability5": 10,
+    "Order": 153,
+    "SkillEffect": 1,
+    "Exp": [
+      10,
+      50,
+      100,
+      200
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      1.5,
+      1.7,
+      1.8,
+      2.0
+    ],
+    "NameIndex": 65,
+    "DescIndex": 163,
+    "MatchEffect": 1,
+    "Probability3": 100,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 118,
+    "SkillEffect": 2,
+    "Exp": [
+      3,
+      10,
+      25,
+      50
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      1.5,
+      1.7,
+      1.8,
+      2.0
+    ],
+    "NameIndex": 66,
+    "DescIndex": 164,
+    "MatchEffect": 1,
+    "Probability3": 100,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 123,
+    "SkillEffect": 2,
+    "Exp": [
+      3,
+      10,
+      25,
+      50
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      1.5,
+      1.7,
+      1.8,
+      2.0
+    ],
+    "NameIndex": 67,
+    "DescIndex": 165,
+    "MatchEffect": 1,
+    "Probability3": 100,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 127,
+    "SkillEffect": 2,
+    "Exp": [
+      3,
+      10,
+      25,
+      50
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      1.5,
+      1.7,
+      1.8,
+      2.0
+    ],
+    "NameIndex": 68,
+    "DescIndex": 166,
+    "MatchEffect": 1,
+    "Probability3": 100,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 133,
+    "SkillEffect": 2,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      1.2,
+      1.5,
+      1.7,
+      2.0
+    ],
+    "NameIndex": 69,
+    "DescIndex": 167,
+    "MatchEffect": 1,
+    "Probability3": 100,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 139,
+    "SkillEffect": 2,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      20.0,
+      30.0,
+      50.0,
+      70.0
+    ],
+    "NameIndex": 70,
+    "DescIndex": 168,
+    "MatchEffect": 1,
+    "Probability3": 30,
+    "Probability4": 50,
+    "Probability5": 100,
+    "Order": 154,
+    "SkillEffect": 1,
+    "Exp": [
+      3,
+      10,
+      25,
+      50
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "NameIndex": 71,
+    "DescIndex": 169,
+    "MatchEffect": 0,
+    "Probability3": 20,
+    "Probability4": 30,
+    "Probability5": 100,
+    "Order": 52,
+    "SkillEffect": 1,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      1.1,
+      1.2,
+      1.4,
+      1.5
+    ],
+    "NameIndex": 72,
+    "DescIndex": 170,
+    "MatchEffect": 0,
+    "Probability3": 20,
+    "Probability4": 30,
+    "Probability5": 100,
+    "Order": 50,
+    "SkillEffect": 2,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      1.1,
+      1.2,
+      1.4,
+      1.5
+    ],
+    "NameIndex": 73,
+    "DescIndex": 171,
+    "MatchEffect": 0,
+    "Probability3": 20,
+    "Probability4": 30,
+    "Probability5": 100,
+    "Order": 53,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      10.0,
+      20.0,
+      25.0
+    ],
+    "NameIndex": 74,
+    "DescIndex": 172,
+    "MatchEffect": 0,
+    "Probability3": 10,
+    "Probability4": 40,
+    "Probability5": 100,
+    "Order": 59,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 75,
+    "DescIndex": 173,
+    "MatchEffect": 0,
+    "Probability3": 5,
+    "Probability4": 55,
+    "Probability5": 80,
+    "Order": 36,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 76,
+    "DescIndex": 174,
+    "MatchEffect": 0,
+    "Probability3": 5,
+    "Probability4": 45,
+    "Probability5": 80,
+    "Order": 38,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      12.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 77,
+    "DescIndex": 175,
+    "MatchEffect": 0,
+    "Probability3": 5,
+    "Probability4": 35,
+    "Probability5": 70,
+    "Order": 40,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      15.0,
+      18.0,
+      25.0
+    ],
+    "NameIndex": 78,
+    "DescIndex": 176,
+    "MatchEffect": 0,
+    "Probability3": 5,
+    "Probability4": 30,
+    "Probability5": 80,
+    "Order": 43,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      8.0,
+      10.0,
+      15.0
+    ],
+    "NameIndex": 79,
+    "DescIndex": 177,
+    "MatchEffect": 0,
+    "Probability3": 10,
+    "Probability4": 30,
+    "Probability5": 80,
+    "Order": 45,
+    "SkillEffect": 1,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 3.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      40.0
+    ],
+    "NameIndex": 80,
+    "DescIndex": 178,
+    "MatchEffect": 2,
+    "Probability3": 50,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 4,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 3.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 81,
+    "DescIndex": 179,
+    "MatchEffect": 0,
+    "Probability3": 10,
+    "Probability4": 50,
+    "Probability5": 50,
+    "Order": 9,
+    "SkillEffect": 1,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 3.0,
+    "Param": [
+      1.1,
+      1.2,
+      1.3,
+      1.5
+    ],
+    "NameIndex": 82,
+    "DescIndex": 180,
+    "MatchEffect": 0,
+    "Probability3": 0,
+    "Probability4": 80,
+    "Probability5": 0,
+    "Order": 19,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 3.0,
+    "Param": [
+      1.1,
+      1.2,
+      1.4,
+      1.7
+    ],
+    "NameIndex": 83,
+    "DescIndex": 181,
+    "MatchEffect": 0,
+    "Probability3": 0,
+    "Probability4": 0,
+    "Probability5": 80,
+    "Order": 27,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 50.0,
+    "Param": [
+      10.0,
+      20.0,
+      30.0,
+      50.0
+    ],
+    "NameIndex": 84,
+    "DescIndex": 182,
+    "MatchEffect": 0,
+    "Probability3": 25,
+    "Probability4": 70,
+    "Probability5": 90,
+    "Order": 100,
+    "SkillEffect": 3,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 4.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 85,
+    "DescIndex": 183,
+    "MatchEffect": 0,
+    "Probability3": 20,
+    "Probability4": 60,
+    "Probability5": 80,
+    "Order": 91,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 6.0,
+    "Param": [
+      5.0,
+      10.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 86,
+    "DescIndex": 184,
+    "MatchEffect": 2,
+    "Probability3": 50,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 5,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 9.0,
+    "Param": [
+      5.0,
+      10.0,
+      20.0,
+      40.0
+    ],
+    "NameIndex": 87,
+    "DescIndex": 185,
+    "MatchEffect": 2,
+    "Probability3": 10,
+    "Probability4": 20,
+    "Probability5": 60,
+    "Order": 6,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      25.0
+    ],
+    "NameIndex": 88,
+    "DescIndex": 186,
+    "MatchEffect": 1,
+    "Probability3": 25,
+    "Probability4": 50,
+    "Probability5": 100,
+    "Order": 152,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 89,
+    "DescIndex": 187,
+    "MatchEffect": 1,
+    "Probability3": 50,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 119,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 90,
+    "DescIndex": 188,
+    "MatchEffect": 1,
+    "Probability3": 40,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 120,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 91,
+    "DescIndex": 189,
+    "MatchEffect": 1,
+    "Probability3": 50,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 124,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 92,
+    "DescIndex": 190,
+    "MatchEffect": 1,
+    "Probability3": 40,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 125,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 93,
+    "DescIndex": 191,
+    "MatchEffect": 1,
+    "Probability3": 50,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 128,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 94,
+    "DescIndex": 192,
+    "MatchEffect": 1,
+    "Probability3": 40,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 129,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 95,
+    "DescIndex": 193,
+    "MatchEffect": 1,
+    "Probability3": 50,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 134,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 96,
+    "DescIndex": 194,
+    "MatchEffect": 1,
+    "Probability3": 40,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 135,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 97,
+    "DescIndex": 195,
+    "MatchEffect": 1,
+    "Probability3": 50,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 140,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 98,
+    "DescIndex": 196,
+    "MatchEffect": 1,
+    "Probability3": 40,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 141,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      20.0,
+      30.0,
+      35.0
+    ],
+    "NameIndex": 99,
+    "DescIndex": 197,
+    "MatchEffect": 1,
+    "Probability3": 25,
+    "Probability4": 50,
+    "Probability5": 100,
+    "Order": 155,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      10.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 100,
+    "DescIndex": 198,
+    "MatchEffect": 1,
+    "Probability3": 20,
+    "Probability4": 50,
+    "Probability5": 100,
+    "Order": 156,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      7.0,
+      10.0,
+      15.0
+    ],
+    "NameIndex": 101,
+    "DescIndex": 199,
+    "MatchEffect": 0,
+    "Probability3": 20,
+    "Probability4": 30,
+    "Probability5": 80,
+    "Order": 46,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 5.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 102,
+    "DescIndex": 200,
+    "MatchEffect": 0,
+    "Probability3": 15,
+    "Probability4": 40,
+    "Probability5": 70,
+    "Order": 11,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 103,
+    "DescIndex": 201,
+    "MatchEffect": 0,
+    "Probability3": 10,
+    "Probability4": 60,
+    "Probability5": 90,
+    "Order": 86,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      25.0
+    ],
+    "NameIndex": 104,
+    "DescIndex": 202,
+    "MatchEffect": 0,
+    "Probability3": 25,
+    "Probability4": 45,
+    "Probability5": 30,
+    "Order": 104,
+    "SkillEffect": 1,
+    "Exp": [
+      3,
+      10,
+      25,
+      50
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      25.0
+    ],
+    "NameIndex": 105,
+    "DescIndex": 203,
+    "MatchEffect": 0,
+    "Probability3": 25,
+    "Probability4": 45,
+    "Probability5": 30,
+    "Order": 105,
+    "SkillEffect": 1,
+    "Exp": [
+      3,
+      10,
+      25,
+      50
+    ]
+  },
+  {
+    "Value": 10.0,
+    "Param": [
+      1.1,
+      1.2,
+      1.3,
+      1.5
+    ],
+    "NameIndex": 106,
+    "DescIndex": 204,
+    "MatchEffect": 0,
+    "Probability3": 10,
+    "Probability4": 20,
+    "Probability5": 50,
+    "Order": 12,
+    "SkillEffect": 2,
+    "Exp": [
+      2,
+      9,
+      30,
+      100
+    ]
+  },
+  {
+    "Value": 1.2,
+    "Param": [
+      1.22,
+      1.25,
+      1.28,
+      1.3
+    ],
+    "NameIndex": 107,
+    "DescIndex": 205,
+    "MatchEffect": 0,
+    "Probability3": 0,
+    "Probability4": 0,
+    "Probability5": 0,
+    "Order": 1,
+    "SkillEffect": 3,
+    "Exp": [
+      10,
+      50,
+      100,
+      200
+    ]
+  },
+  {
+    "Value": 3.0,
+    "Param": [
+      1.1,
+      1.2,
+      1.4,
+      1.5
+    ],
+    "NameIndex": 108,
+    "DescIndex": 206,
+    "MatchEffect": 0,
+    "Probability3": 100,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 31,
+    "SkillEffect": 2,
+    "Exp": [
+      2,
+      9,
+      30,
+      100
+    ]
+  },
+  {
+    "Value": 3.0,
+    "Param": [
+      1.1,
+      1.2,
+      1.4,
+      1.5
+    ],
+    "NameIndex": 109,
+    "DescIndex": 207,
+    "MatchEffect": 0,
+    "Probability3": 100,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 32,
+    "SkillEffect": 2,
+    "Exp": [
+      2,
+      9,
+      30,
+      100
+    ]
+  },
+  {
+    "Value": 3.0,
+    "Param": [
+      1.1,
+      1.2,
+      1.4,
+      1.5
+    ],
+    "NameIndex": 110,
+    "DescIndex": 208,
+    "MatchEffect": 0,
+    "Probability3": 100,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 33,
+    "SkillEffect": 2,
+    "Exp": [
+      2,
+      9,
+      30,
+      100
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      40.0
+    ],
+    "NameIndex": 111,
+    "DescIndex": 209,
+    "MatchEffect": 0,
+    "Probability3": 60,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 2,
+    "SkillEffect": 1,
+    "Exp": [
+      3,
+      10,
+      25,
+      50
+    ]
+  },
+  {
+    "Value": 1.5,
+    "Param": [
+      20.0,
+      25.0,
+      30.0,
+      40.0
+    ],
+    "NameIndex": 112,
+    "DescIndex": 210,
+    "MatchEffect": 0,
+    "Probability3": 40,
+    "Probability4": 60,
+    "Probability5": 100,
+    "Order": 92,
+    "SkillEffect": 1,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 1.5,
+    "Param": [
+      20.0,
+      25.0,
+      30.0,
+      40.0
+    ],
+    "NameIndex": 113,
+    "DescIndex": 211,
+    "MatchEffect": 0,
+    "Probability3": 40,
+    "Probability4": 60,
+    "Probability5": 100,
+    "Order": 93,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.2,
+    "Param": [
+      1.2,
+      1.3,
+      1.5,
+      1.7
+    ],
+    "NameIndex": 114,
+    "DescIndex": 212,
+    "MatchEffect": 0,
+    "Probability3": 70,
+    "Probability4": 80,
+    "Probability5": 100,
+    "Order": 95,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      10.0,
+      20.0,
+      30.0,
+      50.0
+    ],
+    "NameIndex": 115,
+    "DescIndex": 213,
+    "MatchEffect": 0,
+    "Probability3": 40,
+    "Probability4": 60,
+    "Probability5": 80,
+    "Order": 87,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.8,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 116,
+    "DescIndex": 214,
+    "MatchEffect": 0,
+    "Probability3": 30,
+    "Probability4": 50,
+    "Probability5": 70,
+    "Order": 77,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "NameIndex": 117,
+    "DescIndex": 215,
+    "MatchEffect": 0,
+    "Probability3": 20,
+    "Probability4": 60,
+    "Probability5": 80,
+    "Order": 78,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 30.0,
+    "Param": [
+      20.0,
+      30.0,
+      40.0,
+      60.0
+    ],
+    "NameIndex": 118,
+    "DescIndex": 216,
+    "MatchEffect": 0,
+    "Probability3": 5,
+    "Probability4": 40,
+    "Probability5": 60,
+    "Order": 101,
+    "SkillEffect": 1,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 1.2,
+    "Param": [
+      5.0,
+      10.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 119,
+    "DescIndex": 217,
+    "MatchEffect": 0,
+    "Probability3": 10,
+    "Probability4": 40,
+    "Probability5": 70,
+    "Order": 49,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.5,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 120,
+    "DescIndex": 218,
+    "MatchEffect": 0,
+    "Probability3": 50,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 112,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 5.0,
+    "Param": [
+      1.2,
+      1.5,
+      1.9,
+      2.4
+    ],
+    "NameIndex": 121,
+    "DescIndex": 219,
+    "MatchEffect": 0,
+    "Probability3": 50,
+    "Probability4": 50,
+    "Probability5": 50,
+    "Order": 16,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 122,
+    "DescIndex": 220,
+    "MatchEffect": 0,
+    "Probability3": 30,
+    "Probability4": 60,
+    "Probability5": 90,
+    "Order": 54,
+    "SkillEffect": 1,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 123,
+    "DescIndex": 221,
+    "MatchEffect": 0,
+    "Probability3": 20,
+    "Probability4": 50,
+    "Probability5": 90,
+    "Order": 51,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 9.0,
+    "Param": [
+      2.0,
+      2.5,
+      3.0,
+      4.0
+    ],
+    "NameIndex": 124,
+    "DescIndex": 222,
+    "MatchEffect": 0,
+    "Probability3": 70,
+    "Probability4": 80,
+    "Probability5": 100,
+    "Order": 71,
+    "SkillEffect": 2,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 4.0,
+    "Param": [
+      1.5,
+      2.0,
+      3.0,
+      4.0
+    ],
+    "NameIndex": 125,
+    "DescIndex": 223,
+    "MatchEffect": 0,
+    "Probability3": 0,
+    "Probability4": 0,
+    "Probability5": 90,
+    "Order": 29,
+    "SkillEffect": 2,
+    "Exp": [
+      10,
+      50,
+      100,
+      200
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      2.0,
+      2.2,
+      2.5,
+      3.0
+    ],
+    "NameIndex": 126,
+    "DescIndex": 224,
+    "MatchEffect": 1,
+    "Probability3": 80,
+    "Probability4": 80,
+    "Probability5": 80,
+    "Order": 136,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      1.2,
+      1.4,
+      1.6,
+      2.0
+    ],
+    "NameIndex": 127,
+    "DescIndex": 225,
+    "MatchEffect": 0,
+    "Probability3": 20,
+    "Probability4": 40,
+    "Probability5": 80,
+    "Order": 47,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 128,
+    "DescIndex": 226,
+    "MatchEffect": 0,
+    "Probability3": 5,
+    "Probability4": 30,
+    "Probability5": 80,
+    "Order": 58,
+    "SkillEffect": 1,
+    "Exp": [
+      10,
+      50,
+      100,
+      200
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 129,
+    "DescIndex": 227,
+    "MatchEffect": 1,
+    "Probability3": 60,
+    "Probability4": 80,
+    "Probability5": 100,
+    "Order": 158,
+    "SkillEffect": 1,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 130,
+    "DescIndex": 228,
+    "MatchEffect": 1,
+    "Probability3": 60,
+    "Probability4": 80,
+    "Probability5": 100,
+    "Order": 160,
+    "SkillEffect": 1,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      2.0,
+      5.0,
+      10.0,
+      15.0
+    ],
+    "NameIndex": 131,
+    "DescIndex": 229,
+    "MatchEffect": 1,
+    "Probability3": 3,
+    "Probability4": 10,
+    "Probability5": 30,
+    "Order": 162,
+    "SkillEffect": 1,
+    "Exp": [
+      10,
+      50,
+      100,
+      200
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      2.0,
+      5.0,
+      10.0,
+      15.0
+    ],
+    "NameIndex": 132,
+    "DescIndex": 230,
+    "MatchEffect": 1,
+    "Probability3": 3,
+    "Probability4": 10,
+    "Probability5": 30,
+    "Order": 163,
+    "SkillEffect": 1,
+    "Exp": [
+      10,
+      50,
+      100,
+      200
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      10.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 133,
+    "DescIndex": 231,
+    "MatchEffect": 1,
+    "Probability3": 50,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 157,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 270,
+    "DescIndex": 331,
+    "MatchEffect": 0,
+    "Probability3": 30,
+    "Probability4": 60,
+    "Probability5": 90,
+    "Order": 79,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      10.0,
+      20.0,
+      30.0,
+      40.0
+    ],
+    "NameIndex": 271,
+    "DescIndex": 332,
+    "MatchEffect": 0,
+    "Probability3": 20,
+    "Probability4": 60,
+    "Probability5": 90,
+    "Order": 80,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      10.0,
+      15.0,
+      25.0,
+      45.0
+    ],
+    "NameIndex": 272,
+    "DescIndex": 333,
+    "MatchEffect": 0,
+    "Probability3": 5,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 81,
+    "SkillEffect": 1,
+    "Exp": [
+      15,
+      45,
+      100,
+      150
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      10.0,
+      15.0,
+      25.0,
+      45.0
+    ],
+    "NameIndex": 273,
+    "DescIndex": 334,
+    "MatchEffect": 0,
+    "Probability3": 5,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 82,
+    "SkillEffect": 1,
+    "Exp": [
+      15,
+      45,
+      100,
+      150
+    ]
+  },
+  {
+    "Value": 3.0,
+    "Param": [
+      5.0,
+      10.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 274,
+    "DescIndex": 335,
+    "MatchEffect": 0,
+    "Probability3": 0,
+    "Probability4": 0,
+    "Probability5": 70,
+    "Order": 88,
+    "SkillEffect": 1,
+    "Exp": [
+      2,
+      9,
+      27,
+      54
+    ]
+  },
+  {
+    "Value": 2.5,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      35.0
+    ],
+    "NameIndex": 275,
+    "DescIndex": 336,
+    "MatchEffect": 0,
+    "Probability3": 40,
+    "Probability4": 40,
+    "Probability5": 40,
+    "Order": 90,
+    "SkillEffect": 1,
+    "Exp": [
+      15,
+      45,
+      100,
+      150
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 276,
+    "DescIndex": 337,
+    "MatchEffect": 0,
+    "Probability3": 30,
+    "Probability4": 60,
+    "Probability5": 90,
+    "Order": 83,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 277,
+    "DescIndex": 338,
+    "MatchEffect": 0,
+    "Probability3": 30,
+    "Probability4": 60,
+    "Probability5": 90,
+    "Order": 84,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 278,
+    "DescIndex": 339,
+    "MatchEffect": 0,
+    "Probability3": 30,
+    "Probability4": 60,
+    "Probability5": 90,
+    "Order": 85,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 279,
+    "DescIndex": 340,
+    "MatchEffect": 0,
+    "Probability3": 10,
+    "Probability4": 60,
+    "Probability5": 90,
+    "Order": 89,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      10.0,
+      20.0,
+      30.0,
+      40.0
+    ],
+    "NameIndex": 280,
+    "DescIndex": 341,
+    "MatchEffect": 0,
+    "Probability3": 60,
+    "Probability4": 70,
+    "Probability5": 100,
+    "Order": 94,
+    "SkillEffect": 1,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 4.0,
+    "Param": [
+      1.1,
+      1.2,
+      1.5,
+      3.0
+    ],
+    "NameIndex": 281,
+    "DescIndex": 342,
+    "MatchEffect": 0,
+    "Probability3": 80,
+    "Probability4": 90,
+    "Probability5": 100,
+    "Order": 34,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      1.2,
+      1.5,
+      2.0,
+      2.5
+    ],
+    "NameIndex": 282,
+    "DescIndex": 343,
+    "MatchEffect": 0,
+    "Probability3": 100,
+    "Probability4": 0,
+    "Probability5": 0,
+    "Order": 17,
+    "SkillEffect": 2,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 10.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 283,
+    "DescIndex": 344,
+    "MatchEffect": 0,
+    "Probability3": 0,
+    "Probability4": 10,
+    "Probability5": 0,
+    "Order": 24,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 9.0,
+    "Param": [
+      2.0,
+      4.0,
+      6.0,
+      9.0
+    ],
+    "NameIndex": 284,
+    "DescIndex": 345,
+    "MatchEffect": 0,
+    "Probability3": 0,
+    "Probability4": 80,
+    "Probability5": 0,
+    "Order": 25,
+    "SkillEffect": 1,
+    "Exp": [
+      3,
+      11,
+      23,
+      61
+    ]
+  },
+  {
+    "Value": 16.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      35.0
+    ],
+    "NameIndex": 294,
+    "DescIndex": 346,
+    "MatchEffect": 0,
+    "Probability3": 0,
+    "Probability4": 0,
+    "Probability5": 35,
+    "Order": 30,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 8.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 286,
+    "DescIndex": 347,
+    "MatchEffect": 0,
+    "Probability3": 0,
+    "Probability4": 30,
+    "Probability5": 0,
+    "Order": 21,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 8.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 287,
+    "DescIndex": 348,
+    "MatchEffect": 0,
+    "Probability3": 0,
+    "Probability4": 30,
+    "Probability5": 0,
+    "Order": 22,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 8.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 288,
+    "DescIndex": 349,
+    "MatchEffect": 0,
+    "Probability3": 0,
+    "Probability4": 30,
+    "Probability5": 0,
+    "Order": 23,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 5.0,
+    "Param": [
+      1.2,
+      1.5,
+      1.8,
+      2.4
+    ],
+    "NameIndex": 289,
+    "DescIndex": 350,
+    "MatchEffect": 0,
+    "Probability3": 25,
+    "Probability4": 40,
+    "Probability5": 80,
+    "Order": 13,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.5,
+    "Param": [
+      1.5,
+      1.8,
+      2.0,
+      2.2
+    ],
+    "NameIndex": 290,
+    "DescIndex": 351,
+    "MatchEffect": 0,
+    "Probability3": 0,
+    "Probability4": 100,
+    "Probability5": 0,
+    "Order": 20,
+    "SkillEffect": 2,
+    "Exp": [
+      2,
+      9,
+      27,
+      54
+    ]
+  },
+  {
+    "Value": 7.0,
+    "Param": [
+      1.1,
+      1.2,
+      1.3,
+      1.4
+    ],
+    "NameIndex": 291,
+    "DescIndex": 352,
+    "MatchEffect": 0,
+    "Probability3": 17,
+    "Probability4": 53,
+    "Probability5": 73,
+    "Order": 15,
+    "SkillEffect": 2,
+    "Exp": [
+      3,
+      11,
+      23,
+      61
+    ]
+  },
+  {
+    "Value": 10.0,
+    "Param": [
+      1.2,
+      1.5,
+      1.8,
+      2.5
+    ],
+    "NameIndex": 292,
+    "DescIndex": 353,
+    "MatchEffect": 0,
+    "Probability3": 10,
+    "Probability4": 20,
+    "Probability5": 50,
+    "Order": 14,
+    "SkillEffect": 2,
+    "Exp": [
+      10,
+      50,
+      100,
+      200
+    ]
+  },
+  {
+    "Value": 1.5,
+    "Param": [
+      1.5,
+      1.8,
+      2.0,
+      2.2
+    ],
+    "NameIndex": 293,
+    "DescIndex": 354,
+    "MatchEffect": 0,
+    "Probability3": 0,
+    "Probability4": 0,
+    "Probability5": 100,
+    "Order": 28,
+    "SkillEffect": 2,
+    "Exp": [
+      2,
+      9,
+      27,
+      54
+    ]
+  },
+  {
+    "Value": 7.0,
+    "Param": [
+      1.2,
+      1.3,
+      1.5,
+      2.0
+    ],
+    "NameIndex": 285,
+    "DescIndex": 355,
+    "MatchEffect": 0,
+    "Probability3": 70,
+    "Probability4": 70,
+    "Probability5": 70,
+    "Order": 70,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      1.1,
+      1.3,
+      1.5,
+      2.0
+    ],
+    "NameIndex": 295,
+    "DescIndex": 356,
+    "MatchEffect": 0,
+    "Probability3": 20,
+    "Probability4": 40,
+    "Probability5": 60,
+    "Order": 111,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      20.0,
+      30.0,
+      40.0,
+      50.0
+    ],
+    "NameIndex": 296,
+    "DescIndex": 357,
+    "MatchEffect": 0,
+    "Probability3": 20,
+    "Probability4": 50,
+    "Probability5": 100,
+    "Order": 113,
+    "SkillEffect": 1,
+    "Exp": [
+      10,
+      50,
+      100,
+      200
+    ]
+  },
+  {
+    "Value": 1.5,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 297,
+    "DescIndex": 358,
+    "MatchEffect": 0,
+    "Probability3": 60,
+    "Probability4": 60,
+    "Probability5": 60,
+    "Order": 109,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      3.0,
+      5.0,
+      7.0,
+      9.0
+    ],
+    "NameIndex": 298,
+    "DescIndex": 359,
+    "MatchEffect": 0,
+    "Probability3": 40,
+    "Probability4": 70,
+    "Probability5": 90,
+    "Order": 107,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "NameIndex": 299,
+    "DescIndex": 360,
+    "MatchEffect": 0,
+    "Probability3": 0,
+    "Probability4": 60,
+    "Probability5": 100,
+    "Order": 103,
+    "SkillEffect": 1,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 300,
+    "DescIndex": 361,
+    "MatchEffect": 0,
+    "Probability3": 60,
+    "Probability4": 70,
+    "Probability5": 100,
+    "Order": 106,
+    "SkillEffect": 1,
+    "Exp": [
+      3,
+      10,
+      25,
+      50
+    ]
+  },
+  {
+    "Value": 100.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 301,
+    "DescIndex": 362,
+    "MatchEffect": 0,
+    "Probability3": 20,
+    "Probability4": 50,
+    "Probability5": 70,
+    "Order": 99,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 100.0,
+    "Param": [
+      10.0,
+      25.0,
+      30.0,
+      40.0
+    ],
+    "NameIndex": 302,
+    "DescIndex": 363,
+    "MatchEffect": 0,
+    "Probability3": 15,
+    "Probability4": 40,
+    "Probability5": 80,
+    "Order": 97,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      1.5,
+      2.0,
+      3.0,
+      4.0
+    ],
+    "NameIndex": 303,
+    "DescIndex": 364,
+    "MatchEffect": 1,
+    "Probability3": 60,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 121,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      15.0,
+      25.0,
+      45.0,
+      75.0
+    ],
+    "NameIndex": 304,
+    "DescIndex": 365,
+    "MatchEffect": 1,
+    "Probability3": 10,
+    "Probability4": 25,
+    "Probability5": 100,
+    "Order": 147,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      2.0,
+      2.5,
+      3.0,
+      4.0
+    ],
+    "NameIndex": 305,
+    "DescIndex": 366,
+    "MatchEffect": 1,
+    "Probability3": 60,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 148,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      1.5,
+      2.0,
+      3.0,
+      4.0
+    ],
+    "NameIndex": 306,
+    "DescIndex": 367,
+    "MatchEffect": 1,
+    "Probability3": 60,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 126,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      1.5,
+      2.0,
+      3.0,
+      4.0
+    ],
+    "NameIndex": 307,
+    "DescIndex": 368,
+    "MatchEffect": 1,
+    "Probability3": 60,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 143,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      20.0,
+      25.0,
+      40.0
+    ],
+    "NameIndex": 308,
+    "DescIndex": 369,
+    "MatchEffect": 1,
+    "Probability3": 20,
+    "Probability4": 40,
+    "Probability5": 70,
+    "Order": 142,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      1.5,
+      2.0,
+      3.0,
+      4.0
+    ],
+    "NameIndex": 309,
+    "DescIndex": 370,
+    "MatchEffect": 1,
+    "Probability3": 60,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 138,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      7.0,
+      10.0,
+      13.0
+    ],
+    "NameIndex": 310,
+    "DescIndex": 371,
+    "MatchEffect": 1,
+    "Probability3": 35,
+    "Probability4": 45,
+    "Probability5": 65,
+    "Order": 137,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      20.0,
+      30.0,
+      40.0
+    ],
+    "NameIndex": 311,
+    "DescIndex": 372,
+    "MatchEffect": 1,
+    "Probability3": 20,
+    "Probability4": 30,
+    "Probability5": 60,
+    "Order": 130,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 5.0,
+    "Param": [
+      1.2,
+      1.4,
+      1.6,
+      1.8
+    ],
+    "NameIndex": 312,
+    "DescIndex": 373,
+    "MatchEffect": 1,
+    "Probability3": 80,
+    "Probability4": 90,
+    "Probability5": 100,
+    "Order": 132,
+    "SkillEffect": 2,
+    "Exp": [
+      10,
+      50,
+      100,
+      200
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      1.5,
+      2.0,
+      3.0,
+      4.0
+    ],
+    "NameIndex": 313,
+    "DescIndex": 374,
+    "MatchEffect": 1,
+    "Probability3": 60,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 131,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      15.0,
+      25.0,
+      30.0
+    ],
+    "NameIndex": 314,
+    "DescIndex": 375,
+    "MatchEffect": 0,
+    "Probability3": 0,
+    "Probability4": 35,
+    "Probability5": 70,
+    "Order": 41,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 315,
+    "DescIndex": 376,
+    "MatchEffect": 0,
+    "Probability3": 0,
+    "Probability4": 45,
+    "Probability5": 80,
+    "Order": 39,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      30.0
+    ],
+    "NameIndex": 316,
+    "DescIndex": 377,
+    "MatchEffect": 0,
+    "Probability3": 30,
+    "Probability4": 30,
+    "Probability5": 30,
+    "Order": 55,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 3.0,
+    "Param": [
+      1.5,
+      2.0,
+      3.0,
+      3.5
+    ],
+    "NameIndex": 317,
+    "DescIndex": 378,
+    "MatchEffect": 0,
+    "Probability3": 15,
+    "Probability4": 50,
+    "Probability5": 100,
+    "Order": 65,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      1.2,
+      1.5,
+      2.0,
+      2.5
+    ],
+    "NameIndex": 318,
+    "DescIndex": 379,
+    "MatchEffect": 0,
+    "Probability3": 30,
+    "Probability4": 40,
+    "Probability5": 50,
+    "Order": 64,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 5.0,
+    "Param": [
+      1.2,
+      1.5,
+      1.8,
+      2.0
+    ],
+    "NameIndex": 319,
+    "DescIndex": 380,
+    "MatchEffect": 0,
+    "Probability3": 30,
+    "Probability4": 50,
+    "Probability5": 80,
+    "Order": 66,
+    "SkillEffect": 2,
+    "Exp": [
+      3,
+      10,
+      25,
+      50
+    ]
+  },
+  {
+    "Value": 1.5,
+    "Param": [
+      1.2,
+      1.5,
+      1.8,
+      2.0
+    ],
+    "NameIndex": 320,
+    "DescIndex": 381,
+    "MatchEffect": 0,
+    "Probability3": 70,
+    "Probability4": 70,
+    "Probability5": 70,
+    "Order": 63,
+    "SkillEffect": 2,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "NameIndex": 321,
+    "DescIndex": 382,
+    "MatchEffect": 0,
+    "Probability3": 30,
+    "Probability4": 60,
+    "Probability5": 90,
+    "Order": 42,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      4.0,
+      6.0,
+      8.0,
+      10.0
+    ],
+    "NameIndex": 322,
+    "DescIndex": 383,
+    "MatchEffect": 0,
+    "Probability3": 1,
+    "Probability4": 15,
+    "Probability5": 65,
+    "Order": 48,
+    "SkillEffect": 1,
+    "Exp": [
+      2,
+      9,
+      30,
+      70
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      1.2,
+      1.5,
+      2.0,
+      2.5
+    ],
+    "NameIndex": 323,
+    "DescIndex": 384,
+    "MatchEffect": 0,
+    "Probability3": 40,
+    "Probability4": 70,
+    "Probability5": 90,
+    "Order": 44,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      15.0,
+      25.0,
+      40.0,
+      50.0
+    ],
+    "NameIndex": 324,
+    "DescIndex": 385,
+    "MatchEffect": 0,
+    "Probability3": 5,
+    "Probability4": 25,
+    "Probability5": 50,
+    "Order": 37,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      33.0
+    ],
+    "NameIndex": 325,
+    "DescIndex": 386,
+    "MatchEffect": 0,
+    "Probability3": 40,
+    "Probability4": 40,
+    "Probability5": 40,
+    "Order": 60,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      5.0,
+      7.0,
+      10.0,
+      15.0
+    ],
+    "NameIndex": 326,
+    "DescIndex": 387,
+    "MatchEffect": 0,
+    "Probability3": 20,
+    "Probability4": 40,
+    "Probability5": 70,
+    "Order": 61,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      1.5,
+      2.0,
+      3.0,
+      4.0
+    ],
+    "NameIndex": 327,
+    "DescIndex": 388,
+    "MatchEffect": 0,
+    "Probability3": 20,
+    "Probability4": 40,
+    "Probability5": 80,
+    "Order": 56,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      20,
+      40,
+      100
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      20.0,
+      30.0,
+      40.0
+    ],
+    "NameIndex": 328,
+    "DescIndex": 389,
+    "MatchEffect": 1,
+    "Probability3": 25,
+    "Probability4": 40,
+    "Probability5": 70,
+    "Order": 159,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      20.0,
+      30.0,
+      40.0
+    ],
+    "NameIndex": 329,
+    "DescIndex": 390,
+    "MatchEffect": 1,
+    "Probability3": 25,
+    "Probability4": 40,
+    "Probability5": 70,
+    "Order": 161,
+    "SkillEffect": 1,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "NameIndex": 330,
+    "DescIndex": 391,
+    "MatchEffect": 0,
+    "Probability3": 10,
+    "Probability4": 40,
+    "Probability5": 70,
+    "Order": 3,
+    "SkillEffect": 1,
+    "Exp": [
+      15,
+      45,
+      100,
+      150
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "NameIndex": 392,
+    "DescIndex": 396,
+    "MatchEffect": 1,
+    "Probability3": 50,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 122,
+    "SkillEffect": 2,
+    "Exp": [
+      10,
+      50,
+      100,
+      200
+    ]
+  },
+  {
+    "Value": 2.0,
+    "Param": [
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "NameIndex": 393,
+    "DescIndex": 397,
+    "MatchEffect": 1,
+    "Probability3": 50,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 144,
+    "SkillEffect": 2,
+    "Exp": [
+      10,
+      50,
+      100,
+      200
+    ]
+  },
+  {
+    "Value": 1.0,
+    "Param": [
+      10.0,
+      20.0,
+      30.0,
+      40.0
+    ],
+    "NameIndex": 394,
+    "DescIndex": 398,
+    "MatchEffect": 1,
+    "Probability3": 40,
+    "Probability4": 50,
+    "Probability5": 60,
+    "Order": 149,
+    "SkillEffect": 1,
+    "Exp": [
+      15,
+      45,
+      100,
+      150
+    ]
+  },
+  {
+    "Value": 1.5,
+    "Param": [
+      1.5,
+      2.0,
+      2.5,
+      3.0
+    ],
+    "NameIndex": 395,
+    "DescIndex": 399,
+    "MatchEffect": 0,
+    "Probability3": 100,
+    "Probability4": 100,
+    "Probability5": 100,
+    "Order": 114,
+    "SkillEffect": 2,
+    "Exp": [
+      5,
+      30,
+      70,
+      120
+    ]
+  }
+]

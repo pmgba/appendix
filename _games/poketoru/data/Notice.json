@@ -1,0 +1,132 @@
+[
+  {
+    "BeginTime": "2017-09-26T00:00:00",
+    "EndTime": "2017-12-31T00:00:00",
+    "TitleIndex": 523,
+    "TextIndex": 518,
+    "IconIndex": 0,
+    "_Unknown1": 10,
+    "_Unknown2": 21,
+    "_Unknown3": 0
+  },
+  {
+    "BeginTime": "2018-01-30T00:00:00",
+    "EndTime": "2018-02-27T00:00:00",
+    "TitleIndex": 488,
+    "TextIndex": 627,
+    "IconIndex": 150,
+    "_Unknown1": 0,
+    "_Unknown2": 27,
+    "_Unknown3": 0
+  },
+  {
+    "BeginTime": "2018-01-30T00:00:00",
+    "EndTime": "2018-02-27T00:00:00",
+    "TitleIndex": 446,
+    "TextIndex": 628,
+    "IconIndex": 790,
+    "_Unknown1": 0,
+    "_Unknown2": 27,
+    "_Unknown3": 0
+  },
+  {
+    "BeginTime": "2018-01-30T00:00:00",
+    "EndTime": "2018-02-27T00:00:00",
+    "TitleIndex": 618,
+    "TextIndex": 629,
+    "IconIndex": 272,
+    "_Unknown1": 0,
+    "_Unknown2": 27,
+    "_Unknown3": 0
+  },
+  {
+    "BeginTime": "2018-01-30T00:00:00",
+    "EndTime": "2018-02-27T00:00:00",
+    "TitleIndex": 620,
+    "TextIndex": 626,
+    "IconIndex": 0,
+    "_Unknown1": 10,
+    "_Unknown2": 21,
+    "_Unknown3": 0
+  },
+  {
+    "BeginTime": "2018-01-30T00:00:00",
+    "EndTime": "2018-02-20T00:00:00",
+    "TitleIndex": 51,
+    "TextIndex": 632,
+    "IconIndex": 0,
+    "_Unknown1": 10,
+    "_Unknown2": 21,
+    "_Unknown3": 1
+  },
+  {
+    "BeginTime": "2018-02-01T00:00:00",
+    "EndTime": "2018-03-01T00:00:00",
+    "TitleIndex": 619,
+    "TextIndex": 634,
+    "IconIndex": 889,
+    "_Unknown1": 10,
+    "_Unknown2": 27,
+    "_Unknown3": 0
+  },
+  {
+    "BeginTime": "2018-02-01T00:00:00",
+    "EndTime": "2018-12-31T00:00:00",
+    "TitleIndex": 460,
+    "TextIndex": 464,
+    "IconIndex": 0,
+    "_Unknown1": 10,
+    "_Unknown2": 2,
+    "_Unknown3": 0
+  },
+  {
+    "BeginTime": "2018-02-13T00:00:00",
+    "EndTime": "2018-02-27T00:00:00",
+    "TitleIndex": 405,
+    "TextIndex": 644,
+    "IconIndex": 0,
+    "_Unknown1": 10,
+    "_Unknown2": 21,
+    "_Unknown3": 0
+  },
+  {
+    "BeginTime": "2018-02-13T00:00:00",
+    "EndTime": "2018-02-27T00:00:00",
+    "TitleIndex": 107,
+    "TextIndex": 641,
+    "IconIndex": 13,
+    "_Unknown1": 0,
+    "_Unknown2": 22,
+    "_Unknown3": 0
+  },
+  {
+    "BeginTime": "2018-02-13T00:00:00",
+    "EndTime": "2018-02-27T00:00:00",
+    "TitleIndex": 107,
+    "TextIndex": 643,
+    "IconIndex": 21,
+    "_Unknown1": 0,
+    "_Unknown2": 22,
+    "_Unknown3": 0
+  },
+  {
+    "BeginTime": "2018-02-13T00:00:00",
+    "EndTime": "2018-02-27T00:00:00",
+    "TitleIndex": 113,
+    "TextIndex": 640,
+    "IconIndex": 0,
+    "_Unknown1": 0,
+    "_Unknown2": 6,
+    "_Unknown3": 0
+  },
+  {
+    "BeginTime": "2018-02-13T00:00:00",
+    "EndTime": "2018-02-27T00:00:00",
+    "TitleIndex": 102,
+    "TextIndex": 639,
+    "IconIndex": 0,
+    "_Unknown1": 0,
+    "_Unknown2": 6,
+    "_Unknown3": 0
+  }
+]

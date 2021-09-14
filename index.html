@@ -1,0 +1,44 @@
+---
+layout: home
+title: 数据手册 测试版
+footer: 数据手册是一个口袋百科的附属项目，用于存放数据方面的游戏资料。需要人工撰写的内容，以口袋百科为主。
+hide_title: true
+sidebar_data:
+  navigation:
+    -
+      text: 正篇游戏
+      items:
+        -
+          url: /swsh/
+          text: 宝可梦 剑·盾
+    -
+      text: 旁支游戏
+      items:
+        -
+          url: /nobunaga/
+          text: 宝可梦+信长之野望
+        -
+          url: /poketoru/
+          text: 宝可消消乐
+        -
+          url: /quest/
+          text: 宝可梦探险寻宝
+---
+
+<div>
+{% for group in page.sidebar_data.navigation %}
+  <h3>{{group.text}}</h3>
+  <ul class="c-gallery">
+  {% for item in group.items %}
+    <li class="c-gallery__item c-gallery--{{item.type}}">
+      <a class="c-gallery__link" href="{{item.url | relative_url }}">
+        <div class="c-gallery__image">
+          <img src="/assets/icon.png" />
+        </div>
+        <div class="c-gallery__text">{{item.text}}</div>
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+{% endfor %}
+</div>

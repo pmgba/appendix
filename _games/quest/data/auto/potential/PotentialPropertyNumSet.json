@@ -1,0 +1,28 @@
+{
+  "m_datas": [
+    {
+      "m_num": 1,
+      "m_weightMin": 100,
+      "m_weightMedian": 100,
+      "m_weightMax": 100
+    },
+    {
+      "m_num": 2,
+      "m_weightMin": 40,
+      "m_weightMedian": 45,
+      "m_weightMax": 50
+    },
+    {
+      "m_num": 3,
+      "m_weightMin": 10,
+      "m_weightMedian": 12,
+      "m_weightMax": 15
+    },
+    {
+      "m_num": 4,
+      "m_weightMin": 5,
+      "m_weightMedian": 6,
+      "m_weightMax": 7
+    }
+  ]
+}

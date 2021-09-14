@@ -1,0 +1,1838 @@
+{
+  "m_datas": [
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 120,
+      "m_text_English": "ART DIRECTOR",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 1100,
+      "m_text_English": "Tsubasa Matsuzaki",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 120,
+      "m_text_English": "PROGRAMMING",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 110,
+      "m_text_English": "Kazuki Saita",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 1100,
+      "m_text_English": "Satoshi Muramatsu",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 120,
+      "m_text_English": "PLANNING",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 110,
+      "m_text_English": "Takeshi Kawachimaru",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 1200,
+      "m_text_English": "Kei Setoguchi",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 1,
+      "m_colorString": "0",
+      "m_height": 250,
+      "m_text_English": "0",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 110,
+      "m_text_English": "PROGRAMMING",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 220,
+      "m_text_English": "Genya Hosaka",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 110,
+      "m_text_English": "PLANNING",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 1200,
+      "m_text_English": "Akinori Asaba",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 1,
+      "m_colorString": "0",
+      "m_height": 150,
+      "m_text_English": "0",
+      "m_logo_ID": 1
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 100,
+      "m_text_English": "SOUND",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 100,
+      "m_text_English": "Teruo Taniguchi",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 100,
+      "m_text_English": "Takahiro Eguchi",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 100,
+      "m_text_English": "Fumihisa Tanaka",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 1100,
+      "m_text_English": "Shinji Hosoe",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 100,
+      "m_text_English": "PROJECT MANAGER",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 450,
+      "m_text_English": "Yuki Gabe",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 100,
+      "m_text_English": "SCENARIO SUPPORT",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 450,
+      "m_text_English": "Aya Shimano",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 100,
+      "m_text_English": "INFORMATION COORDINATORS",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 100,
+      "m_text_English": "Yuta Nakai",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 500,
+      "m_text_English": "Tsuyoshi Ichikawa",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 100,
+      "m_text_English": "SUPERVISORS",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 100,
+      "m_text_English": "Ken Sugimori",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 1100,
+      "m_text_English": "Shigeru Ohmori",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 120,
+      "m_text_English": "PRODUCER/DIRECTOR",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 1100,
+      "m_text_English": "Tetsuya Watanabe",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "ENGLISH LOCALIZATION",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Yasuhiro Usui",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Mikiko Ryu",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Mayu Todo",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Bryan Olsson",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Hana Atteberry",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "ENGLISH TRANSLATION",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Ben Regal",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Satoko Deas",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "ENGLISH EDITING",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Blaise Selby",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Kellyn Ballard",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Eric Haddock",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Rei Nakazawa",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "EUROPEAN LOCALIZATION",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Makiko Cottrell",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Maya Yoshida",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Tadasu Hasegawa",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Daniel Anscomb",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Elena Nardo",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Bertrand Lecocq ",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Cyril Schultz",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Emanuel Turchetta",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "FRENCH TRANSLATION",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Aymeric Forgit",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Nicolas Bonnet",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "FRENCH EDITING",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Pierre Gauthier ",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Marine Vallée",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Clémence Amoric",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Franck Couée",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "GERMAN TRANSLATION",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Kathleen Kalms",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Christopher Derbort",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Daniel Heucher",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Sophie Jüterbock",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "GERMAN EDITING",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Claudia Thon",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Alina Linnenweber",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "ITALIAN TRANSLATION",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Francesca Serci ",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Manuela Suriano",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Altan Couvert",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Marco Sartori",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Guido Scarabello",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "ITALIAN EDITING",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Alice Troiani ",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Fabio Giusti",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Silvia De Bellis",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Valentina Menale",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "SPANISH TRANSLATION",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Enrique Joga Elvira",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Iker Álvarez Castellanos",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "SPANISH EDITING",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Eva Rodríguez Graña",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Mariona Pera i de Miguel",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "ENGLISH & EUROPEAN ARTWORK",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Chris Franc",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Kevin Lalli",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Kaori Aoki",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Owen Preece",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Ritsuko Oshu",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Hannah Vassallo",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "KOREAN LOCALIZATION",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Choi Mihwa",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Byun Jieun",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Park Youngjun",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Jo Eunbi",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "KOREAN ARTWORK",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Jung Yesun",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "CHINESE LOCALIZATION",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Chingyun Sung",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Keisuke Fukushima",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "CHINESE TRANSLATION & EDITING",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Chingyun Sung",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 100,
+      "m_text_English": "Chungte Huang",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 100,
+      "m_text_English": "Xi Zhang",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Claudia Chan",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Eiju Umemura",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "CHINESE ARTWORK",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Yi Peng",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "NOA LOCALIZATION SUPPORT",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Akiko Kasugayama",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Yuki Hirata",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Joel Simon",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Terry Chan",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "NOA PRODUCT TESTING",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Kentaro Nishimura",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Kirk Buchanan",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Sean Egan",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Tomoko Mikami",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Andy Kolden",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Nami Jamesson ",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Kathy Huguenard",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Evan Wright",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Michael Sahlin",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Pablo Reyes",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Sebastian Galloway",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Paul Gardner",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Craig So",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Gatlin Brown",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Daniel Mitchel-Slentz",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Julia Ryer",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Gene Shobey",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Product Testing Technicians",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "NOE LOCALISATION SUPPORT",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Patrick Thorenz",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Canela Rodal",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Ryoko Sawabe",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "NOE QA COORDINATION",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Jesús Gutiérrez Cuadra",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Marco Gruden",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "NOE QUALITY ASSURANCE",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Ben Howard-Hale",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Emilien de Salles Costa",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Olivier Jacquemin-Guillaume",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Gabriele Cuscino",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Andrea Marino",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Christina Stoffel",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Sebastian Jende",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Jessica Sánchez Herrera",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "David Martín Navarro",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Mercedes Dólera Hernández",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "NOK LOCALIZATION SUPPORT",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Hyokjin Jung",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Dongyeon Kim",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Soonil Kim",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Inseon Song",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Suzy Do",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "NOK TESTING & QUALITY ASSURANCE",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Kyoungim Na",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Eodo Lee",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "CHINESE PRODUCT TESTING",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Deguang Yan",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Gang Yan",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "DEBUG MANAGEMENT",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Motoki Nakajima",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Takuya Inoue",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "DEBUG",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Mario Club Co., Ltd.",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "DIGITAL Hearts Co., Ltd.",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "SPECIAL THANKS—LOCALIZATION",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Thomas Candland",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Mary Rayes",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Michael Bales",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 100,
+      "m_text_English": "Katia Percca Ragas",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "NOE Communication Coordinator Group",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "TECHNICAL SUPPORT",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Kei Ninomiya",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 100,
+      "m_text_English": "Shotaro Iwanaga",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Tadahito Aduma",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Satoru Takeshima",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "ARTWORK",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Nagaya Satoru",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Shinpo Ayano",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Suzuki Akiyo",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 100,
+      "m_text_English": "Shinkai Chiaki",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Yasuko Sugiyama",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "POKÉMON GRAPHIC SUPERVISORS",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Misuzu Kanayama",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 70,
+      "m_text_English": "Emiko Yoshino",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 200,
+      "m_text_English": "Yuki Nakagawa",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "SPECIAL THANKS",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Marie Honda",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Kenji Matsushima",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Yuichiro Mori",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Kenji Tominaga",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Yoshio Tajiri",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 100,
+      "m_text_English": "Teiko Sasaki",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 100,
+      "m_text_English": "Hyogonosuke",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Kenjiro Ito",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Mikiko Ohashi",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Atsushi Sugimoto",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Toshio Miyahara",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Eisuke Kasejima",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Taku Kawamoto",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Yasunori Suenaga",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Masami Tanaka",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Keita Hirobe",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Susumu Fukunaga",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Nobuhiro Sawabe",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Retsuji Nomoto",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Shoichi Obora",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Kazuyoshi Kojima",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Keiko Mochida",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Kaoru Kashiba",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Tatsuro Takahashi",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Momoko Yoshida",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Daisuke Takami",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Yusuke Tomita",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Michiko Takizawa",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Hirotaka Hayakawa",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Maiko Usami",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 100,
+      "m_text_English": "Junko Tamura",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Kenji Okubo",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 100,
+      "m_text_English": "Gaku Susai",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Minyu Hsu",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 100,
+      "m_text_English": "Youna Wu",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 60,
+      "m_text_English": "Lim Jaiboem",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 500,
+      "m_text_English": "Lee Jihye",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "COORDINATORS",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 80,
+      "m_text_English": "Akira Kinashi",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 80,
+      "m_text_English": "Yuki Okada",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 100,
+      "m_text_English": "Noriko Nakagawa",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 80,
+      "m_text_English": "Masayuki Wada",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 80,
+      "m_text_English": "Yuki Gabe",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 80,
+      "m_text_English": "Aya Shimano",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 1100,
+      "m_text_English": "Hayato Yoshimura",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "PRODUCERS",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 110,
+      "m_text_English": "Hitoshi Yamagami",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 110,
+      "m_text_English": "Kazunori Sugiura",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 1100,
+      "m_text_English": "Takanori Sowa",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "GENERAL PRODUCERS",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 110,
+      "m_text_English": "Junichi Masuda",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 110,
+      "m_text_English": "Shinya Takahashi",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 1100,
+      "m_text_English": "Takato Utsunomiya",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "EXECUTIVE PRODUCERS",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 110,
+      "m_text_English": "Satoshi Tajiri",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 110,
+      "m_text_English": "Tatsumi Kimishima",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 2,
+      "m_colorString": "0",
+      "m_height": 1100,
+      "m_text_English": "Tsunekazu Ishihara",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 0,
+      "m_colorString": "#FFCB47",
+      "m_height": 80,
+      "m_text_English": "Production and Copyright",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 3,
+      "m_colorString": "0",
+      "m_height": 50,
+      "m_text_English": "Nintendo, The Pokémon Company and",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 3,
+      "m_colorString": "0",
+      "m_height": 50,
+      "m_text_English": "GAME FREAK inc. are the authors of",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 3,
+      "m_colorString": "0",
+      "m_height": 50,
+      "m_text_English": "this software for the purpose of copyright.",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 3,
+      "m_colorString": "0",
+      "m_height": 150,
+      "m_text_English": "All rights reserved.",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 3,
+      "m_colorString": "0",
+      "m_height": 50,
+      "m_text_English": "Nintendo, The Pokémon Company et",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 3,
+      "m_colorString": "0",
+      "m_height": 50,
+      "m_text_English": "GAME FREAK inc. sont les auteurs de ce",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 3,
+      "m_colorString": "0",
+      "m_height": 50,
+      "m_text_English": "logiciel au regard du droit d'auteur.",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 3,
+      "m_colorString": "0",
+      "m_height": 150,
+      "m_text_English": "Tous droits réservés.",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 3,
+      "m_colorString": "0",
+      "m_height": 50,
+      "m_text_English": "©2018 Pokémon.",
+      "m_logo_ID": 0
+    },
+    {
+      "m_type": 3,
+      "m_colorString": "0",
+      "m_height": 1000,
+      "m_text_English": "©1995–2018 Nintendo/Creatures Inc./GAME FREAK inc.",
+      "m_logo_ID": 0
+    }
+  ]
+}

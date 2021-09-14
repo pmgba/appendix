@@ -1,0 +1,1976 @@
+[
+  {
+    "Unknown1": 0,
+    "Name2": "イーブイ",
+    "Unknown21": "00000000000000000",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 72,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 20,
+    "Name2": "プリン",
+    "Unknown21": "00000000000010100",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 73,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 114,
+    "Name2": "ヒコザル",
+    "Unknown21": "00000000001110010",
+    "Unknown5": 779,
+    "Unknown3": 507375,
+    "Unknown4": 36,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 120,
+    "Name2": "ポカブ",
+    "Unknown21": "00000000001111000",
+    "Unknown5": 201,
+    "Unknown3": 507375,
+    "Unknown4": 36,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 120,
+    "Name2": "ポカブ",
+    "Unknown21": "00000000001111000",
+    "Unknown5": 562,
+    "Unknown3": 507375,
+    "Unknown4": 36,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 105,
+    "Name2": "ミジュマル",
+    "Unknown21": "00000000001101001",
+    "Unknown5": 1247,
+    "Unknown3": 507375,
+    "Unknown4": 37,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 139,
+    "Name2": "ヒヤップ",
+    "Unknown21": "00000000010001011",
+    "Unknown5": 1125,
+    "Unknown3": 507375,
+    "Unknown4": 58,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 17,
+    "Name2": "ウパー",
+    "Unknown21": "00000000000010001",
+    "Unknown5": 1125,
+    "Unknown3": 507375,
+    "Unknown4": 48,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 132,
+    "Name2": "ポッチャマ",
+    "Unknown21": "00000000010000100",
+    "Unknown5": 1007,
+    "Unknown3": 507375,
+    "Unknown4": 37,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 117,
+    "Name2": "ツタージャ",
+    "Unknown21": "00000000001110101",
+    "Unknown5": 1066,
+    "Unknown3": 507375,
+    "Unknown4": 38,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 135,
+    "Name2": "ヤナップ",
+    "Unknown21": "00000000010000111",
+    "Unknown5": 949,
+    "Unknown3": 507375,
+    "Unknown4": 58,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 123,
+    "Name2": "クルミル",
+    "Unknown21": "00000000001111011",
+    "Unknown5": 949,
+    "Unknown3": 507375,
+    "Unknown4": 68,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 123,
+    "Name2": "クルミル",
+    "Unknown21": "00000000001111011",
+    "Unknown5": 835,
+    "Unknown3": 507375,
+    "Unknown4": 64,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 33,
+    "Name2": "コリンク",
+    "Unknown21": "00000000000100001",
+    "Unknown5": 1639,
+    "Unknown3": 507375,
+    "Unknown4": 67,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 25,
+    "Name2": "ムックル",
+    "Unknown21": "00000000000011001",
+    "Unknown5": 1504,
+    "Unknown3": 507375,
+    "Unknown4": 20,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 14,
+    "Name2": "ピチュー",
+    "Unknown21": "00000000000001110",
+    "Unknown5": 1504,
+    "Unknown3": 507375,
+    "Unknown4": 79,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 139,
+    "Name2": "ヒヤップ",
+    "Unknown21": "00000000010001011",
+    "Unknown5": 1374,
+    "Unknown3": 507375,
+    "Unknown4": 58,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 44,
+    "Name2": "メリープ",
+    "Unknown21": "00000000000101100",
+    "Unknown5": 1374,
+    "Unknown3": 507375,
+    "Unknown4": 78,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 101,
+    "Name2": "ドテッコツ",
+    "Unknown21": "00000000001100101",
+    "Unknown5": 182,
+    "Unknown3": 507375,
+    "Unknown4": 4,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 100,
+    "Name2": "ドッコラー",
+    "Unknown21": "00000000001100100",
+    "Unknown5": 26,
+    "Unknown3": 507375,
+    "Unknown4": 4,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 135,
+    "Name2": "ヤナップ",
+    "Unknown21": "00000000010000111",
+    "Unknown5": 26,
+    "Unknown3": 507375,
+    "Unknown4": 58,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 97,
+    "Name2": "ワンリキー",
+    "Unknown21": "00000000001100001",
+    "Unknown5": 1923,
+    "Unknown3": 507375,
+    "Unknown4": 40,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 100,
+    "Name2": "ドッコラー",
+    "Unknown21": "00000000001100100",
+    "Unknown5": 1923,
+    "Unknown3": 507375,
+    "Unknown4": 4,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 55,
+    "Name2": "クヌギダマ",
+    "Unknown21": "00000000000110111",
+    "Unknown5": 1923,
+    "Unknown3": 507375,
+    "Unknown4": 30,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 30,
+    "Name2": "フシデ",
+    "Unknown21": "00000000000011110",
+    "Unknown5": 1639,
+    "Unknown3": 507375,
+    "Unknown4": 31,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 59,
+    "Name2": "タマザラシ",
+    "Unknown21": "00000000000111011",
+    "Unknown5": 1778,
+    "Unknown3": 507375,
+    "Unknown4": 44,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 30,
+    "Name2": "フシデ",
+    "Unknown21": "00000000000011110",
+    "Unknown5": 1778,
+    "Unknown3": 507375,
+    "Unknown4": 31,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 123,
+    "Name2": "クルミル",
+    "Unknown21": "00000000001111011",
+    "Unknown5": 1639,
+    "Unknown3": 507375,
+    "Unknown4": 68,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 161,
+    "Name2": "ドサイドン",
+    "Unknown21": "00000000010100001",
+    "Unknown5": 872,
+    "Unknown3": 507375,
+    "Unknown4": 25,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 120,
+    "Name2": "ポカブ",
+    "Unknown21": "00000000001111000",
+    "Unknown5": 600,
+    "Unknown3": 507375,
+    "Unknown4": 36,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 164,
+    "Name2": "ズルッグ",
+    "Unknown21": "00000000010100100",
+    "Unknown5": 600,
+    "Unknown3": 507375,
+    "Unknown4": 55,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 159,
+    "Name2": "サイホーン",
+    "Unknown21": "00000000010011111",
+    "Unknown5": 600,
+    "Unknown3": 507375,
+    "Unknown4": 25,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 151,
+    "Name2": "モグリュー",
+    "Unknown21": "00000000010010111",
+    "Unknown5": 428,
+    "Unknown3": 507375,
+    "Unknown4": 50,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 108,
+    "Name2": "ヒトカゲ",
+    "Unknown21": "00000000001101100",
+    "Unknown5": 428,
+    "Unknown3": 507375,
+    "Unknown4": 36,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 11,
+    "Name2": "エルレイド",
+    "Unknown21": "00000000000001011",
+    "Unknown5": 872,
+    "Unknown3": 507375,
+    "Unknown4": 27,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 9,
+    "Name2": "キルリア",
+    "Unknown21": "00000000000001001",
+    "Unknown5": 600,
+    "Unknown3": 507375,
+    "Unknown4": 28,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 103,
+    "Name2": "クマシュン",
+    "Unknown21": "00000000001100111",
+    "Unknown5": 600,
+    "Unknown3": 507375,
+    "Unknown4": 64,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 8,
+    "Name2": "ラルトス",
+    "Unknown21": "00000000000001000",
+    "Unknown5": 428,
+    "Unknown3": 507375,
+    "Unknown4": 28,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 151,
+    "Name2": "モグリュー",
+    "Unknown21": "00000000010010111",
+    "Unknown5": 428,
+    "Unknown3": 507375,
+    "Unknown4": 50,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 126,
+    "Name2": "ケーシィ",
+    "Unknown21": "00000000001111110",
+    "Unknown5": 600,
+    "Unknown3": 507375,
+    "Unknown4": 28,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 23,
+    "Name2": "ゴルバット",
+    "Unknown21": "00000000000010111",
+    "Unknown5": 1466,
+    "Unknown3": 507375,
+    "Unknown4": 18,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 115,
+    "Name2": "モウカザル",
+    "Unknown21": "00000000001110011",
+    "Unknown5": 1791,
+    "Unknown3": 507375,
+    "Unknown4": 36,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 186,
+    "Name2": "ミカルゲ",
+    "Unknown21": "00000000010111010",
+    "Unknown5": 1260,
+    "Unknown3": 507375,
+    "Unknown4": 78,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 54,
+    "Name2": "アーボック",
+    "Unknown21": "00000000000110110",
+    "Unknown5": 1062,
+    "Unknown3": 507375,
+    "Unknown4": 76,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 53,
+    "Name2": "アーボ",
+    "Unknown21": "00000000000110101",
+    "Unknown5": 1062,
+    "Unknown3": 507375,
+    "Unknown4": 55,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 22,
+    "Name2": "ズバット",
+    "Unknown21": "00000000000010110",
+    "Unknown5": 1260,
+    "Unknown3": 507375,
+    "Unknown4": 58,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 169,
+    "Name2": "ウォーグル",
+    "Unknown21": "00000000010101001",
+    "Unknown5": 1904,
+    "Unknown3": 507375,
+    "Unknown4": 20,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 185,
+    "Name2": "マスキッパ",
+    "Unknown21": "00000000010111001",
+    "Unknown5": 1681,
+    "Unknown3": 507375,
+    "Unknown4": 0,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 25,
+    "Name2": "ムックル",
+    "Unknown21": "00000000000011001",
+    "Unknown5": 1681,
+    "Unknown3": 507375,
+    "Unknown4": 20,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 26,
+    "Name2": "ムクバード",
+    "Unknown21": "00000000000011010",
+    "Unknown5": 1681,
+    "Unknown3": 507375,
+    "Unknown4": 61,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 23,
+    "Name2": "ゴルバット",
+    "Unknown21": "00000000000010111",
+    "Unknown5": 1466,
+    "Unknown3": 507375,
+    "Unknown4": 78,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 168,
+    "Name2": "ワシボン",
+    "Unknown21": "00000000010101000",
+    "Unknown5": 1466,
+    "Unknown3": 507375,
+    "Unknown4": 20,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 40,
+    "Name2": "ガントル",
+    "Unknown21": "00000000000101000",
+    "Unknown5": 1160,
+    "Unknown3": 507375,
+    "Unknown4": 12,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 137,
+    "Name2": "バオップ",
+    "Unknown21": "00000000010001001",
+    "Unknown5": 966,
+    "Unknown3": 507375,
+    "Unknown4": 58,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 97,
+    "Name2": "ワンリキー",
+    "Unknown21": "00000000001100001",
+    "Unknown5": 966,
+    "Unknown3": 507375,
+    "Unknown4": 40,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 78,
+    "Name2": "ヨーギラス",
+    "Unknown21": "00000000001001110",
+    "Unknown5": 966,
+    "Unknown3": 507375,
+    "Unknown4": 50,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 174,
+    "Name2": "イワーク",
+    "Unknown21": "00000000010101110",
+    "Unknown5": 779,
+    "Unknown3": 507375,
+    "Unknown4": 30,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 39,
+    "Name2": "ダンゴロ",
+    "Unknown21": "00000000000100111",
+    "Unknown5": 779,
+    "Unknown3": 507375,
+    "Unknown4": 60,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 154,
+    "Name2": "ゾロアーク",
+    "Unknown21": "00000000010011010",
+    "Unknown5": 1466,
+    "Unknown3": 507375,
+    "Unknown4": 41,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 66,
+    "Name2": "ワルビル",
+    "Unknown21": "00000000001000010",
+    "Unknown5": 1260,
+    "Unknown3": 507375,
+    "Unknown4": 71,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 165,
+    "Name2": "ズルズキン",
+    "Unknown21": "00000000010100101",
+    "Unknown5": 1260,
+    "Unknown3": 507375,
+    "Unknown4": 55,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 157,
+    "Name2": "コマタナ",
+    "Unknown21": "00000000010011101",
+    "Unknown5": 1260,
+    "Unknown3": 507375,
+    "Unknown4": 27,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 22,
+    "Name2": "ズバット",
+    "Unknown21": "00000000000010110",
+    "Unknown5": 1062,
+    "Unknown3": 507375,
+    "Unknown4": 58,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 164,
+    "Name2": "ズルッグ",
+    "Unknown21": "00000000010100100",
+    "Unknown5": 1062,
+    "Unknown3": 507375,
+    "Unknown4": 55,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 189,
+    "Name2": "ラプラス",
+    "Unknown21": "00000000010111101",
+    "Unknown5": 710,
+    "Unknown3": 507375,
+    "Unknown4": 11,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 72,
+    "Name2": "ムシャーナ",
+    "Unknown21": "00000000001001000",
+    "Unknown5": 454,
+    "Unknown3": 507375,
+    "Unknown4": 74,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 60,
+    "Name2": "トドグラー",
+    "Unknown21": "00000000000111100",
+    "Unknown5": 454,
+    "Unknown3": 507375,
+    "Unknown4": 3,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 104,
+    "Name2": "ツンベアー",
+    "Unknown21": "00000000001101000",
+    "Unknown5": 454,
+    "Unknown3": 507375,
+    "Unknown4": 35,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 103,
+    "Name2": "クマシュン",
+    "Unknown21": "00000000001100111",
+    "Unknown5": 208,
+    "Unknown3": 507375,
+    "Unknown4": 64,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 71,
+    "Name2": "ムンナ",
+    "Unknown21": "00000000001000111",
+    "Unknown5": 208,
+    "Unknown3": 507375,
+    "Unknown4": 44,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 183,
+    "Name2": "ムウマージ",
+    "Unknown21": "00000000010110111",
+    "Unknown5": 208,
+    "Unknown3": 507375,
+    "Unknown4": 0,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 32,
+    "Name2": "ペンドラー",
+    "Unknown21": "00000000000100000",
+    "Unknown5": 2019,
+    "Unknown3": 507375,
+    "Unknown4": 31,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 37,
+    "Name2": "ランプラー",
+    "Unknown21": "00000000000100101",
+    "Unknown5": 2019,
+    "Unknown3": 507375,
+    "Unknown4": 33,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 182,
+    "Name2": "ムウマ",
+    "Unknown21": "00000000010110110",
+    "Unknown5": 1791,
+    "Unknown3": 507375,
+    "Unknown4": 0,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 69,
+    "Name2": "サマヨール",
+    "Unknown21": "00000000001000101",
+    "Unknown5": 1791,
+    "Unknown3": 507375,
+    "Unknown4": 78,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 166,
+    "Name2": "フワンテ",
+    "Unknown21": "00000000010100110",
+    "Unknown5": 2019,
+    "Unknown3": 507375,
+    "Unknown4": 29,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 150,
+    "Name2": "ボスゴドラ",
+    "Unknown21": "00000000010010110",
+    "Unknown5": 208,
+    "Unknown3": 507375,
+    "Unknown4": 12,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 83,
+    "Name2": "メタグロス",
+    "Unknown21": "00000000001010011",
+    "Unknown5": 454,
+    "Unknown3": 507375,
+    "Unknown4": 60,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 18,
+    "Name2": "ヌオー",
+    "Unknown21": "00000000000010010",
+    "Unknown5": 2019,
+    "Unknown3": 507375,
+    "Unknown4": 99,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 148,
+    "Name2": "ココドラ",
+    "Unknown21": "00000000010010100",
+    "Unknown5": 2019,
+    "Unknown3": 507375,
+    "Unknown4": 60,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 52,
+    "Name2": "チリーン",
+    "Unknown21": "00000000000110100",
+    "Unknown5": 1791,
+    "Unknown3": 507375,
+    "Unknown4": 0,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 148,
+    "Name2": "ココドラ",
+    "Unknown21": "00000000010010100",
+    "Unknown5": 1791,
+    "Unknown3": 507375,
+    "Unknown4": 60,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 197,
+    "Name2": "ゼクロム",
+    "Unknown21": "00000000011000101",
+    "Unknown5": 1541,
+    "Unknown3": 507375,
+    "Unknown4": 7,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 76,
+    "Name2": "ハクリュー",
+    "Unknown21": "00000000001001100",
+    "Unknown5": 977,
+    "Unknown3": 507375,
+    "Unknown4": 55,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 85,
+    "Name2": "ガバイト",
+    "Unknown21": "00000000001010101",
+    "Unknown5": 710,
+    "Unknown3": 507375,
+    "Unknown4": 27,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 136,
+    "Name2": "ヤナッキー",
+    "Unknown21": "00000000010001000",
+    "Unknown5": 710,
+    "Unknown3": 507375,
+    "Unknown4": 61,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 144,
+    "Name2": "オノンド",
+    "Unknown21": "00000000010010000",
+    "Unknown5": 454,
+    "Unknown3": 507375,
+    "Unknown4": 5,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 89,
+    "Name2": "モノズ",
+    "Unknown21": "00000000001011001",
+    "Unknown5": 454,
+    "Unknown3": 507375,
+    "Unknown4": 41,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 53,
+    "Name2": "アーボ",
+    "Unknown21": "00000000000110101",
+    "Unknown5": 405,
+    "Unknown3": 507375,
+    "Unknown4": 76,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 174,
+    "Name2": "イワーク",
+    "Unknown21": "00000000010101110",
+    "Unknown5": 405,
+    "Unknown3": 507375,
+    "Unknown4": 30,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 17,
+    "Name2": "ウパー",
+    "Unknown21": "00000000000010001",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 48,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 65,
+    "Name2": "メグロコ",
+    "Unknown21": "00000000001000001",
+    "Unknown5": 405,
+    "Unknown3": 507375,
+    "Unknown4": 76,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 108,
+    "Name2": "ヒトカゲ",
+    "Unknown21": "00000000001101100",
+    "Unknown5": 779,
+    "Unknown3": 507375,
+    "Unknown4": 36,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 141,
+    "Name2": "ダルマッカ",
+    "Unknown21": "00000000010001101",
+    "Unknown5": 779,
+    "Unknown3": 507375,
+    "Unknown4": 97,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 120,
+    "Name2": "ポカブ",
+    "Unknown21": "00000000001111000",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 36,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 132,
+    "Name2": "ポッチャマ",
+    "Unknown21": "00000000010000100",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 37,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 57,
+    "Name2": "ニャース",
+    "Unknown21": "00000000000111001",
+    "Unknown5": 405,
+    "Unknown3": 507375,
+    "Unknown4": 1,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 132,
+    "Name2": "ポッチャマ",
+    "Unknown21": "00000000010000100",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 37,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 47,
+    "Name2": "モンメン",
+    "Unknown21": "00000000000101111",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 1,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 185,
+    "Name2": "マスキッパ",
+    "Unknown21": "00000000010111001",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 0,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 47,
+    "Name2": "モンメン",
+    "Unknown21": "00000000000101111",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 58,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 28,
+    "Name2": "ビッパ",
+    "Unknown21": "00000000000011100",
+    "Unknown5": 201,
+    "Unknown3": 507375,
+    "Unknown4": 70,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 22,
+    "Name2": "ズバット",
+    "Unknown21": "00000000000010110",
+    "Unknown5": 251,
+    "Unknown3": 507375,
+    "Unknown4": 58,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 30,
+    "Name2": "フシデ",
+    "Unknown21": "00000000000011110",
+    "Unknown5": 251,
+    "Unknown3": 507375,
+    "Unknown4": 31,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 95,
+    "Name2": "チラーミィ",
+    "Unknown21": "00000000001011111",
+    "Unknown5": 562,
+    "Unknown3": 507375,
+    "Unknown4": 79,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 25,
+    "Name2": "ムックル",
+    "Unknown21": "00000000000011001",
+    "Unknown5": 405,
+    "Unknown3": 507375,
+    "Unknown4": 20,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 78,
+    "Name2": "ヨーギラス",
+    "Unknown21": "00000000001001110",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 50,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 172,
+    "Name2": "メラルバ",
+    "Unknown21": "00000000010101100",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 33,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 81,
+    "Name2": "ダンバル",
+    "Unknown21": "00000000001010001",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 19,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 143,
+    "Name2": "キバゴ",
+    "Unknown21": "00000000010001111",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 5,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 170,
+    "Name2": "アノプス",
+    "Unknown21": "00000000010101010",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 10,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 139,
+    "Name2": "ヒヤップ",
+    "Unknown21": "00000000010001011",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 58,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 12,
+    "Name2": "コイキング",
+    "Unknown21": "00000000000001100",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 48,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 97,
+    "Name2": "ワンリキー",
+    "Unknown21": "00000000001100001",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 40,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 53,
+    "Name2": "アーボ",
+    "Unknown21": "00000000000110101",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 76,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 185,
+    "Name2": "マスキッパ",
+    "Unknown21": "00000000010111001",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 0,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 179,
+    "Name2": "エモンガ",
+    "Unknown21": "00000000010110011",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 32,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 73,
+    "Name2": "シママ",
+    "Unknown21": "00000000001001001",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 25,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 129,
+    "Name2": "キモリ",
+    "Unknown21": "00000000010000001",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 38,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 182,
+    "Name2": "ムウマ",
+    "Unknown21": "00000000010110110",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 0,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 84,
+    "Name2": "フカマル",
+    "Unknown21": "00000000001010100",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 28,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 71,
+    "Name2": "ムンナ",
+    "Unknown21": "00000000001000111",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 44,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 117,
+    "Name2": "ツタージャ",
+    "Unknown21": "00000000001110101",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 38,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 180,
+    "Name2": "ニューラ",
+    "Unknown21": "00000000010110100",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 18,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 100,
+    "Name2": "ドッコラー",
+    "Unknown21": "00000000001100100",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 4,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 174,
+    "Name2": "イワーク",
+    "Unknown21": "00000000010101110",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 30,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 30,
+    "Name2": "フシデ",
+    "Unknown21": "00000000000011110",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 31,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 100,
+    "Name2": "ドッコラー",
+    "Unknown21": "00000000001100100",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 4,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 25,
+    "Name2": "ムックル",
+    "Unknown21": "00000000000011001",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 20,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 49,
+    "Name2": "リオル",
+    "Unknown21": "00000000000110001",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 18,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 180,
+    "Name2": "ニューラ",
+    "Unknown21": "00000000010110100",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 18,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 159,
+    "Name2": "サイホーン",
+    "Unknown21": "00000000010011111",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 30,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 187,
+    "Name2": "ストライク",
+    "Unknown21": "00000000010111011",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 39,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 170,
+    "Name2": "アノプス",
+    "Unknown21": "00000000010101010",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 10,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 148,
+    "Name2": "ココドラ",
+    "Unknown21": "00000000010010100",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 60,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 65,
+    "Name2": "メグロコ",
+    "Unknown21": "00000000001000001",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 76,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 53,
+    "Name2": "アーボ",
+    "Unknown21": "00000000000110101",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 76,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 25,
+    "Name2": "ムックル",
+    "Unknown21": "00000000000011001",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 20,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 22,
+    "Name2": "ズバット",
+    "Unknown21": "00000000000010110",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 58,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 65,
+    "Name2": "メグロコ",
+    "Unknown21": "00000000001000001",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 76,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 166,
+    "Name2": "フワンテ",
+    "Unknown21": "00000000010100110",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 29,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 12,
+    "Name2": "コイキング",
+    "Unknown21": "00000000000001100",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 48,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 143,
+    "Name2": "キバゴ",
+    "Unknown21": "00000000010001111",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 28,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 53,
+    "Name2": "アーボ",
+    "Unknown21": "00000000000110101",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 76,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 176,
+    "Name2": "スピアー",
+    "Unknown21": "00000000010110000",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 65,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 162,
+    "Name2": "タテトプス",
+    "Unknown21": "00000000010100010",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 101,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 170,
+    "Name2": "アノプス",
+    "Unknown21": "00000000010101010",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 10,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 19,
+    "Name2": "ププリン",
+    "Unknown21": "00000000000010011",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 73,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 137,
+    "Name2": "バオップ",
+    "Unknown21": "00000000010001001",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 58,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 123,
+    "Name2": "クルミル",
+    "Unknown21": "00000000001111011",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 68,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 97,
+    "Name2": "ワンリキー",
+    "Unknown21": "00000000001100001",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 40,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 55,
+    "Name2": "クヌギダマ",
+    "Unknown21": "00000000000110111",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 30,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 146,
+    "Name2": "バチュル",
+    "Unknown21": "00000000010010010",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 69,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 151,
+    "Name2": "モグリュー",
+    "Unknown21": "00000000010010111",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 50,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 155,
+    "Name2": "スコルピ",
+    "Unknown21": "00000000010011011",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 10,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 176,
+    "Name2": "スピアー",
+    "Unknown21": "00000000010110000",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 65,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 137,
+    "Name2": "バオップ",
+    "Unknown21": "00000000010001001",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 58,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 47,
+    "Name2": "モンメン",
+    "Unknown21": "00000000000101111",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 58,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 36,
+    "Name2": "ヒトモシ",
+    "Unknown21": "00000000000100100",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 33,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 185,
+    "Name2": "マスキッパ",
+    "Unknown21": "00000000010111001",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 0,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 186,
+    "Name2": "ミカルゲ",
+    "Unknown21": "00000000010111010",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 78,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 22,
+    "Name2": "ズバット",
+    "Unknown21": "00000000000010110",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 58,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 75,
+    "Name2": "ミニリュウ",
+    "Unknown21": "00000000001001011",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 55,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 174,
+    "Name2": "イワーク",
+    "Unknown21": "00000000010101110",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 30,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 81,
+    "Name2": "ダンバル",
+    "Unknown21": "00000000001010001",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 19,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 159,
+    "Name2": "サイホーン",
+    "Unknown21": "00000000010011111",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 25,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 174,
+    "Name2": "イワーク",
+    "Unknown21": "00000000010101110",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 30,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 8,
+    "Name2": "ラルトス",
+    "Unknown21": "00000000000001000",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 28,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 51,
+    "Name2": "リーシャン",
+    "Unknown21": "00000000000110011",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 0,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 78,
+    "Name2": "ヨーギラス",
+    "Unknown21": "00000000001001110",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 50,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 168,
+    "Name2": "ワシボン",
+    "Unknown21": "00000000010101000",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 20,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 182,
+    "Name2": "ムウマ",
+    "Unknown21": "00000000010110110",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 0,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 25,
+    "Name2": "ムックル",
+    "Unknown21": "00000000000011001",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 20,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 97,
+    "Name2": "ワンリキー",
+    "Unknown21": "00000000001100001",
+    "Unknown5": -1,
+    "Unknown3": 507375,
+    "Unknown4": 40,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  },
+  {
+    "Unknown1": 200,
+    "Unknown21": "00000000011001000",
+    "Unknown5": 1362,
+    "Unknown3": 507375,
+    "Unknown4": 128,
+    "Unknowna": "00-00-78-42",
+    "Unknownb": "52-B8-1E-3F"
+  }
+]

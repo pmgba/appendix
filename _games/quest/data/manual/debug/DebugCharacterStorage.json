@@ -1,0 +1,335 @@
+{
+  "SelectFormationIndex": 0,
+  "Formations": [
+    {
+      "Members": [
+        {
+          "StorageIndex": 0
+        },
+        {
+          "StorageIndex": 1
+        },
+        {
+          "StorageIndex": 2
+        }
+      ]
+    }
+  ],
+  "Characters": [
+    {
+      "MonsterNo": 1,
+      "Level": 15,
+      "Hp": 125,
+      "Attack": 75,
+      "ActiveSlots": "2,3,8",
+      "Name": "フシギダネ",
+      "SkillRangeType": 0,
+      "Skills": [
+        {
+          "SkillID": 65,
+          "SlotIndex": 0
+        },
+        {
+          "SkillID": 65535,
+          "SlotIndex": -1
+        }
+      ]
+    },
+    {
+      "MonsterNo": 4,
+      "Level": 15,
+      "Hp": 75,
+      "Attack": 125,
+      "ActiveSlots": "2,3,8",
+      "Name": "ヒトカゲ",
+      "SkillRangeType": 0,
+      "Skills": [
+        {
+          "SkillID": 43,
+          "SlotIndex": 0
+        },
+        {
+          "SkillID": 65535,
+          "SlotIndex": 2
+        }
+      ]
+    },
+    {
+      "MonsterNo": 7,
+      "Level": 15,
+      "Hp": 100,
+      "Attack": 100,
+      "ActiveSlots": "2,3,8",
+      "Name": "ゼニガメ",
+      "SkillRangeType": 0,
+      "Skills": [
+        {
+          "SkillID": 48,
+          "SlotIndex": 0
+        },
+        {
+          "SkillID": 52,
+          "SlotIndex": 3
+        }
+      ]
+    },
+    {
+      "MonsterNo": 25,
+      "Level": 21,
+      "Hp": 70,
+      "Attack": 130,
+      "ActiveSlots": "2,3,8",
+      "Name": "ピカクルーズ",
+      "SkillRangeType": 0,
+      "Skills": [
+        {
+          "SkillID": 57,
+          "SlotIndex": 0
+        },
+        {
+          "SkillID": 150,
+          "SlotIndex": 1
+        }
+      ]
+    },
+    {
+      "MonsterNo": 133,
+      "Level": 35,
+      "Hp": 100,
+      "Attack": 100,
+      "ActiveSlots": "2,3,4,8",
+      "Name": "たらこ",
+      "SkillRangeType": 0,
+      "Skills": [
+        {
+          "SkillID": 101,
+          "SlotIndex": 0
+        },
+        {
+          "SkillID": 157,
+          "SlotIndex": 1
+        }
+      ]
+    },
+    {
+      "MonsterNo": 49,
+      "Level": 60,
+      "Hp": 450,
+      "Attack": 450,
+      "ActiveSlots": "0,1,2,4,6,7",
+      "Name": "もるるん",
+      "SkillRangeType": 1,
+      "Skills": [
+        {
+          "SkillID": 94,
+          "SlotIndex": 0
+        },
+        {
+          "SkillID": 179,
+          "SlotIndex": 2
+        }
+      ]
+    },
+    {
+      "MonsterNo": 91,
+      "Level": 60,
+      "Hp": 775,
+      "Attack": 225,
+      "ActiveSlots": "0,1,3,4,6,8",
+      "Name": "パルツェン",
+      "SkillRangeType": 1,
+      "Skills": [
+        {
+          "SkillID": 116,
+          "SlotIndex": 0
+        },
+        {
+          "SkillID": 99,
+          "SlotIndex": 2
+        }
+      ]
+    },
+    {
+      "MonsterNo": 122,
+      "Level": 60,
+      "Hp": 725,
+      "Attack": 175,
+      "ActiveSlots": "0,1,2,3,6,7",
+      "Name": "バフヤード",
+      "SkillRangeType": 1,
+      "Skills": [
+        {
+          "SkillID": 116,
+          "SlotIndex": 0
+        },
+        {
+          "SkillID": 198,
+          "SlotIndex": 2
+        }
+      ]
+    },
+    {
+      "MonsterNo": 99,
+      "Level": 60,
+      "Hp": 250,
+      "Attack": 650,
+      "ActiveSlots": "1,3,4,5,6,8",
+      "Name": "かにかま",
+      "SkillRangeType": 0,
+      "Skills": [
+        {
+          "SkillID": 151,
+          "SlotIndex": 0
+        },
+        {
+          "SkillID": 177,
+          "SlotIndex": 3
+        }
+      ]
+    },
+    {
+      "MonsterNo": 89,
+      "Level": 60,
+      "Hp": 750,
+      "Attack": 250,
+      "ActiveSlots": "2,3,4,5,8",
+      "Name": "ヘドリオン",
+      "SkillRangeType": 0,
+      "Skills": [
+        {
+          "SkillID": 148,
+          "SlotIndex": 0
+        },
+        {
+          "SkillID": 169,
+          "SlotIndex": 1
+        }
+      ]
+    },
+    {
+      "MonsterNo": 53,
+      "Level": 60,
+      "Hp": 400,
+      "Attack": 500,
+      "ActiveSlots": "0,1,2,3,4,6,7",
+      "Name": "ねこ",
+      "SkillRangeType": 0,
+      "Skills": [
+        {
+          "SkillID": 187,
+          "SlotIndex": 0
+        },
+        {
+          "SkillID": 130,
+          "SlotIndex": 2
+        }
+      ]
+    },
+    {
+      "MonsterNo": 16,
+      "Level": 1,
+      "Hp": 100,
+      "Attack": 100,
+      "ActiveSlots": "7",
+      "Name": "ボッボ",
+      "SkillRangeType": 1,
+      "Skills": [
+        {
+          "SkillID": 107,
+          "SlotIndex": 0
+        }
+      ]
+    },
+    {
+      "MonsterNo": 19,
+      "Level": 1,
+      "Hp": 75,
+      "Attack": 125,
+      "ActiveSlots": "5",
+      "Name": "コラッタ",
+      "SkillRangeType": 0,
+      "Skills": [
+        {
+          "SkillID": 176,
+          "SlotIndex": 0
+        }
+      ]
+    },
+    {
+      "MonsterNo": 149,
+      "Level": 100,
+      "Hp": 5000,
+      "Attack": 3000,
+      "ActiveSlots": "0,1,2,3,4,5,6,7,8",
+      "Name": "ドラゴリオ",
+      "SkillRangeType": 0,
+      "Skills": [
+        {
+          "SkillID": 108,
+          "SlotIndex": 0
+        },
+        {
+          "SkillID": 142,
+          "SlotIndex": 1
+        }
+      ]
+    },
+    {
+      "MonsterNo": 34,
+      "Level": 100,
+      "Hp": 4000,
+      "Attack": 4000,
+      "ActiveSlots": "0,1,2,3,4,5,6,7,8",
+      "Name": "ニードドン",
+      "SkillRangeType": 0,
+      "Skills": [
+        {
+          "SkillID": 174,
+          "SlotIndex": 0
+        },
+        {
+          "SkillID": 89,
+          "SlotIndex": 1
+        }
+      ]
+    },
+    {
+      "MonsterNo": 131,
+      "Level": 100,
+      "Hp": 3000,
+      "Attack": 5000,
+      "ActiveSlots": "0,1,2,3,4,5,6,7,8",
+      "Name": "ラプシール",
+      "SkillRangeType": 1,
+      "Skills": [
+        {
+          "SkillID": 72,
+          "SlotIndex": 0
+        },
+        {
+          "SkillID": 178,
+          "SlotIndex": 1
+        }
+      ]
+    },
+    {
+      "MonsterNo": 132,
+      "Level": 100,
+      "Hp": 400,
+      "Attack": 400,
+      "ActiveSlots": "0,1,2,3,4,5,6,7,8",
+      "Name": "メタモン５",
+      "SkillRangeType": 0,
+      "Skills": [
+        {
+          "SkillID": 241,
+          "SlotIndex": 0
+        },
+        {
+          "SkillID": 242,
+          "SlotIndex": 2
+        }
+      ]
+    }
+  ]
+}

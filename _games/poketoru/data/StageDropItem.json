@@ -1,0 +1,200 @@
+[
+  {
+    "Type": 0,
+    "ItemId": 0,
+    "Count": 0,
+    "IsRare": false
+  },
+  {
+    "Type": 4,
+    "ItemId": 13,
+    "Count": 1,
+    "IsRare": true
+  },
+  {
+    "Type": 4,
+    "ItemId": 14,
+    "Count": 1,
+    "IsRare": true
+  },
+  {
+    "Type": 4,
+    "ItemId": 15,
+    "Count": 1,
+    "IsRare": false
+  },
+  {
+    "Type": 4,
+    "ItemId": 16,
+    "Count": 1,
+    "IsRare": false
+  },
+  {
+    "Type": 4,
+    "ItemId": 17,
+    "Count": 1,
+    "IsRare": true
+  },
+  {
+    "Type": 4,
+    "ItemId": 18,
+    "Count": 1,
+    "IsRare": false
+  },
+  {
+    "Type": 4,
+    "ItemId": 19,
+    "Count": 1,
+    "IsRare": true
+  },
+  {
+    "Type": 4,
+    "ItemId": 20,
+    "Count": 1,
+    "IsRare": true
+  },
+  {
+    "Type": 4,
+    "ItemId": 21,
+    "Count": 1,
+    "IsRare": true
+  },
+  {
+    "Type": 4,
+    "ItemId": 8,
+    "Count": 1,
+    "IsRare": true
+  },
+  {
+    "Type": 4,
+    "ItemId": 1,
+    "Count": 1,
+    "IsRare": false
+  },
+  {
+    "Type": 4,
+    "ItemId": 2,
+    "Count": 1,
+    "IsRare": false
+  },
+  {
+    "Type": 4,
+    "ItemId": 3,
+    "Count": 1,
+    "IsRare": false
+  },
+  {
+    "Type": 4,
+    "ItemId": 4,
+    "Count": 1,
+    "IsRare": false
+  },
+  {
+    "Type": 4,
+    "ItemId": 5,
+    "Count": 1,
+    "IsRare": true
+  },
+  {
+    "Type": 4,
+    "ItemId": 6,
+    "Count": 1,
+    "IsRare": false
+  },
+  {
+    "Type": 4,
+    "ItemId": 7,
+    "Count": 1,
+    "IsRare": false
+  },
+  {
+    "Type": 2,
+    "ItemId": 0,
+    "Count": 1,
+    "IsRare": false
+  },
+  {
+    "Type": 2,
+    "ItemId": 0,
+    "Count": 2,
+    "IsRare": false
+  },
+  {
+    "Type": 2,
+    "ItemId": 0,
+    "Count": 5,
+    "IsRare": false
+  },
+  {
+    "Type": 2,
+    "ItemId": 0,
+    "Count": 3,
+    "IsRare": false
+  },
+  {
+    "Type": 2,
+    "ItemId": 0,
+    "Count": 20,
+    "IsRare": true
+  },
+  {
+    "Type": 2,
+    "ItemId": 0,
+    "Count": 10,
+    "IsRare": true
+  },
+  {
+    "Type": 3,
+    "ItemId": 0,
+    "Count": 100,
+    "IsRare": false
+  },
+  {
+    "Type": 3,
+    "ItemId": 0,
+    "Count": 300,
+    "IsRare": false
+  },
+  {
+    "Type": 3,
+    "ItemId": 0,
+    "Count": 1000,
+    "IsRare": false
+  },
+  {
+    "Type": 3,
+    "ItemId": 0,
+    "Count": 2000,
+    "IsRare": true
+  },
+  {
+    "Type": 3,
+    "ItemId": 0,
+    "Count": 200,
+    "IsRare": false
+  },
+  {
+    "Type": 3,
+    "ItemId": 0,
+    "Count": 400,
+    "IsRare": false
+  },
+  {
+    "Type": 3,
+    "ItemId": 0,
+    "Count": 5000,
+    "IsRare": true
+  },
+  {
+    "Type": 1,
+    "ItemId": 0,
+    "Count": 1,
+    "IsRare": true
+  },
+  {
+    "Type": 7,
+    "ItemId": 0,
+    "Count": 1,
+    "IsRare": false
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "m_datas": [
+    {
+      "m_hpLower": 0,
+      "m_hpHigher": 10,
+      "m_atkLower": 0,
+      "m_atkHigher": 10
+    },
+    {
+      "m_hpLower": 50,
+      "m_hpHigher": 100,
+      "m_atkLower": 50,
+      "m_atkHigher": 100
+    },
+    {
+      "m_hpLower": 150,
+      "m_hpHigher": 250,
+      "m_atkLower": 150,
+      "m_atkHigher": 250
+    },
+    {
+      "m_hpLower": 300,
+      "m_hpHigher": 400,
+      "m_atkLower": 300,
+      "m_atkHigher": 400
+    }
+  ]
+}

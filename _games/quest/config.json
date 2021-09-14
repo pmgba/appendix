@@ -1,0 +1,34 @@
+{
+  "js": [
+    "./common.mjs"
+  ],
+  "css": [
+
+  ],
+  "navigation": [
+    {
+      "text": "资料",
+      "default_icon": "file",
+      "items": [
+        {
+          "url": "#!/pokemon",
+          "title": "宝可梦"
+        },
+        {
+          "url": "#!/skill",
+          "title": "招式"
+        }
+      ]
+    },
+    {
+      "text": "工具",
+      "default_icon": "file",
+      "items": [
+        {
+          "url": "#!/iv",
+          "title": "个体值计算器"
+        }
+      ]
+    }
+  ]
+}

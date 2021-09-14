@@ -1,0 +1,77 @@
+{
+  "js": [
+  ],
+
+  "css": [
+
+  ],
+
+  "breadcrumb": {
+    "items": [{
+      "level" : 0,
+      "text": "<i class=\"fas fa-home\"></i>",
+      "url": "/"
+    }],
+    "separator": "/"
+  },
+
+  "navigation": [
+    {
+      "items": [
+        {
+          "url": "#!/",
+          "icon": "home",
+          "title": "首页"
+        }
+      ]
+    },
+    {
+      "text": "资料",
+      "default_icon": "file",
+      "items": [
+        {
+          "url": "#!/pokemon",
+          "title": "宝可梦"
+        },
+        {
+          "url": "#!/megapokemon",
+          "title": "超级进化的宝可梦"
+        },
+        {
+          "url": "#!/ability",
+          "title": "能力"
+        },
+        {
+          "url": "#!/item",
+          "title": "道具"
+        }
+      ]
+    },
+    {
+      "text": "关卡",
+      "default_icon": "file",
+      "items": [
+        {
+          "url": "#!/mainstage",
+          "title": "主线关卡"
+        },
+        {
+          "url": "#!/extrastage",
+          "title": "额外关卡"
+        },
+        {
+          "url": "#!/eventstage",
+          "title": "活动关卡"
+        },
+        {
+          "url": "#!/event",
+          "title": "活动一览"
+        },
+        {
+          "url": "#!/maindrop",
+          "title": "主线掉落"
+        }
+      ]
+    }
+  ]
+}

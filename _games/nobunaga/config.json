@@ -1,0 +1,23 @@
+{
+  "navigation": [
+    {
+      "items": [
+        {
+        "url": "#!/",
+        "icon": "home",
+        "title": "首页"
+        }
+      ]
+    },
+    {
+      "text": "资料",
+      "default_icon": "file",
+      "items": [
+        {
+        "url": "#!/pokemon",
+        "title": "宝可梦"
+        }
+      ]
+    }
+  ]
+}

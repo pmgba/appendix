@@ -1,0 +1,12 @@
+{
+  "m_datas": [
+    {
+      "m_stoneGraphicType": 0,
+      "m_targetType": 1
+    },
+    {
+      "m_stoneGraphicType": 1,
+      "m_targetType": 2
+    }
+  ]
+}

@@ -1,0 +1,767 @@
+[
+  {
+    "LevelBegin": 1,
+    "LevelEnd": 0,
+    "StageBegin": 5,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 2,
+    "LevelEnd": 0,
+    "StageBegin": 10,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 3,
+    "LevelEnd": 0,
+    "StageBegin": 11,
+    "StageEnd": 147,
+    "Excludes": [
+      21,
+      45,
+      75,
+      105,
+      126,
+      130,
+      135,
+      146,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 4,
+    "LevelEnd": 0,
+    "StageBegin": 45,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 5,
+    "LevelEnd": 0,
+    "StageBegin": 11,
+    "StageEnd": 147,
+    "Excludes": [
+      21,
+      45,
+      75,
+      105,
+      126,
+      130,
+      135,
+      146,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 6,
+    "LevelEnd": 0,
+    "StageBegin": 105,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 7,
+    "LevelEnd": 0,
+    "StageBegin": 11,
+    "StageEnd": 147,
+    "Excludes": [
+      21,
+      45,
+      75,
+      105,
+      126,
+      130,
+      135,
+      146,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 8,
+    "LevelEnd": 0,
+    "StageBegin": 135,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 9,
+    "LevelEnd": 0,
+    "StageBegin": 11,
+    "StageEnd": 147,
+    "Excludes": [
+      21,
+      45,
+      75,
+      105,
+      126,
+      130,
+      135,
+      146,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 10,
+    "LevelEnd": 0,
+    "StageBegin": 150,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 11,
+    "LevelEnd": 0,
+    "StageBegin": 37,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 12,
+    "LevelEnd": 0,
+    "StageBegin": 11,
+    "StageEnd": 147,
+    "Excludes": [
+      21,
+      45,
+      75,
+      105,
+      126,
+      130,
+      135,
+      146,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 13,
+    "LevelEnd": 14,
+    "StageBegin": 151,
+    "StageEnd": 209,
+    "Excludes": [
+      165,
+      170,
+      180,
+      183,
+      191,
+      198,
+      205,
+      184,
+      185
+    ]
+  },
+  {
+    "LevelBegin": 15,
+    "LevelEnd": 0,
+    "StageBegin": 104,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 16,
+    "LevelEnd": 0,
+    "StageBegin": 18,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 17,
+    "LevelEnd": 0,
+    "StageBegin": 11,
+    "StageEnd": 147,
+    "Excludes": [
+      21,
+      45,
+      75,
+      105,
+      126,
+      130,
+      135,
+      146,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 18,
+    "LevelEnd": 19,
+    "StageBegin": 151,
+    "StageEnd": 209,
+    "Excludes": [
+      165,
+      170,
+      180,
+      183,
+      191,
+      198,
+      205,
+      184,
+      185
+    ]
+  },
+  {
+    "LevelBegin": 20,
+    "LevelEnd": 0,
+    "StageBegin": 180,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 21,
+    "LevelEnd": 0,
+    "StageBegin": 44,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 22,
+    "LevelEnd": 0,
+    "StageBegin": 11,
+    "StageEnd": 147,
+    "Excludes": [
+      21,
+      45,
+      75,
+      105,
+      126,
+      130,
+      135,
+      146,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 23,
+    "LevelEnd": 24,
+    "StageBegin": 151,
+    "StageEnd": 209,
+    "Excludes": [
+      165,
+      170,
+      180,
+      183,
+      191,
+      198,
+      205,
+      184,
+      185
+    ]
+  },
+  {
+    "LevelBegin": 25,
+    "LevelEnd": 0,
+    "StageBegin": 148,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 26,
+    "LevelEnd": 0,
+    "StageBegin": 26,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 27,
+    "LevelEnd": 0,
+    "StageBegin": 11,
+    "StageEnd": 147,
+    "Excludes": [
+      21,
+      45,
+      75,
+      105,
+      126,
+      130,
+      135,
+      146,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 28,
+    "LevelEnd": 29,
+    "StageBegin": 151,
+    "StageEnd": 209,
+    "Excludes": [
+      165,
+      170,
+      180,
+      183,
+      191,
+      198,
+      205,
+      184,
+      185
+    ]
+  },
+  {
+    "LevelBegin": 30,
+    "LevelEnd": 0,
+    "StageBegin": 210,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 31,
+    "LevelEnd": 0,
+    "StageBegin": 64,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 32,
+    "LevelEnd": 0,
+    "StageBegin": 1,
+    "StageEnd": 147,
+    "Excludes": [
+      10,
+      21,
+      45,
+      105,
+      135,
+      5,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 33,
+    "LevelEnd": 34,
+    "StageBegin": 211,
+    "StageEnd": 238,
+    "Excludes": [
+      219,
+      230,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 35,
+    "LevelEnd": 0,
+    "StageBegin": 230,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 36,
+    "LevelEnd": 0,
+    "StageBegin": 111,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 37,
+    "LevelEnd": 0,
+    "StageBegin": 1,
+    "StageEnd": 147,
+    "Excludes": [
+      10,
+      21,
+      45,
+      105,
+      135,
+      5,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 38,
+    "LevelEnd": 39,
+    "StageBegin": 211,
+    "StageEnd": 238,
+    "Excludes": [
+      219,
+      230,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 40,
+    "LevelEnd": 0,
+    "StageBegin": 240,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 41,
+    "LevelEnd": 0,
+    "StageBegin": 178,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 42,
+    "LevelEnd": 44,
+    "StageBegin": 1,
+    "StageEnd": 147,
+    "Excludes": [
+      10,
+      21,
+      45,
+      105,
+      135,
+      5,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 45,
+    "LevelEnd": 49,
+    "StageBegin": 241,
+    "StageEnd": 259,
+    "Excludes": [
+      248,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 50,
+    "LevelEnd": 0,
+    "StageBegin": 260,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 51,
+    "LevelEnd": 0,
+    "StageBegin": 54,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 52,
+    "LevelEnd": 0,
+    "StageBegin": 151,
+    "StageEnd": 209,
+    "Excludes": [
+      165,
+      170,
+      180,
+      183,
+      191,
+      198,
+      205,
+      184,
+      185
+    ]
+  },
+  {
+    "LevelBegin": 53,
+    "LevelEnd": 54,
+    "StageBegin": 261,
+    "StageEnd": 299,
+    "Excludes": [
+      264,
+      266,
+      278,
+      288,
+      297,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 55,
+    "LevelEnd": 0,
+    "StageBegin": 290,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 56,
+    "LevelEnd": 57,
+    "StageBegin": 261,
+    "StageEnd": 299,
+    "Excludes": [
+      264,
+      266,
+      278,
+      288,
+      297,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 58,
+    "LevelEnd": 59,
+    "StageBegin": 183,
+    "StageEnd": 185,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "LevelBegin": 60,
+    "LevelEnd": 0,
+    "StageBegin": 300,
+    "StageEnd": 0,
+    "Excludes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+]

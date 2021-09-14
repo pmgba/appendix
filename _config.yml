@@ -1,0 +1,87 @@
+#################
+# Site settings #
+#################
+title:       "数据手册"
+description: "A handbook to game data."
+encoding:    "utf-8"
+separater:   "-"
+logo:        "assets/logo.png" 
+copyright:   "2018-2021"
+language:    "zh-CN"
+npm_cdn:     "https://cdn.jsdelivr.net/npm/"
+scheme:      "light" # "dark", "light"
+comments:    "disqus" # false, "disqus", "gitalk", ...
+port: 12345
+google_analytics:
+  id:        ""
+disqus:
+  shortname: ""
+gitalk:
+  clientID:  ""
+  clientSecret: ""
+  repo:      ""
+  owner:     ""
+  proxy:     ""
+
+
+#################
+# Page settings #
+#################
+# Each of the following items can be overrides by default settings.
+permalink: "/:title:output_ext"
+
+scrollspy: true
+toc: true
+
+sidebar: true
+sidebar_data_id: "sidebar_portal"
+
+####################
+# Default settings #
+####################
+collections:
+  games:
+    output: true
+    permalink: :path/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "games"
+    values:
+      layout: "article"
+      requirements:
+        modules:
+          - /assets/databook/js/databook.dynamic.mjs
+
+##################
+# Build settings #
+##################
+markdown: "kramdown"
+plugins:
+  - "jekyll-paginate"
+  - "jekyll-sitemap"
+  - "jekyll-avatar"
+  - "jekyll-feed"
+  - "jekyll-mentions"
+  - "jekyll-redirect-from"
+  - "jemoji"
+# - "jekyll-include-cache"
+paginate: 10
+paginate_path: "/page:num/"
+paginate_first_page_path: "/page1/"
+remote_theme: "Fortelle/databook-theme"
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - docs/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
