@@ -25,7 +25,7 @@ export default {
     await poketoru.init('item');
   },
 
-  createContent: createContent,
+  getContent: createContent,
 
 };
 

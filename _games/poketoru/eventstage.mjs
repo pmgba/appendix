@@ -1,8 +1,8 @@
 import poketoru from './poketoru.mjs';
-import stage from './stage.mjs';
+import stageloader from './stageloader.mjs';
 
 function getStageList() {
-  let stages = poketoru.data.get('StageData');
+  let stages = poketoru.data.get('StageDataEvent');
   let options = stages.map((stageData, i) => {
     let pokemon = poketoru.pokemon[stageData.PokemonId];
     return [
@@ -14,21 +14,21 @@ function getStageList() {
 }
 
 function createMainPage() {
-  let stages = poketoru.data.get('StageData');
+  let stages = poketoru.data.get('StageDataEvent');
   let list = databook.component.create({
     type: 'list',
     columns: [{
       //width: '8%',
-      header: '关卡编号',
+      text: '关卡编号',
     }, {
-      header: '图标',
+      text: '图标',
     }, {
       //width: '140px',
-      header: '宝可梦',
+      text: '宝可梦',
     }, {
-      header: '属性',
+      text: '属性',
     }, {
-      header: 'HP',
+      text: 'HP',
     }],
     list: stages.map((stageData, i) => {
       let pokemon = poketoru.pokemon[stageData.PokemonId];
@@ -66,7 +66,7 @@ export default {
 
   init: async () => {
     await poketoru.init('pokemon', 'ability', 'item');
-    await stage.init('event');
+    await stageloader.init('event');
   },
 
   getForm: () => ({
@@ -83,8 +83,13 @@ export default {
 
   getContent: (search) => {
     let id = ~~search?.id;
-    if (search && ('id' in search) && id < poketoru.data.get('StageData').length) {
-      return stage.getStageContent(poketoru.data.get('StageData', id));
+    let stage = stageloader.getStage('event', id);
+    if (stage) {
+      let pokemon = stage.getPokemon();
+      return {
+        subtitle: pokemon.name,
+        content: stage.getContent(),
+      };
     }
     else {
       return createMainPage();

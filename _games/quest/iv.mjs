@@ -28,7 +28,7 @@ export default {
     });
   },
 
-  createContent: () => {
+  getContent: () => {
     let select = quest.data.get('pokemonDataSet').m_datas
       .map(pokemonData => [
         `<option value="${pokemonData.m_monsterNo}">${quest.getNumber(pokemonData.m_monsterNo)} ${quest.data.get('monsname', pokemonData.m_monsterNo)}</option>`

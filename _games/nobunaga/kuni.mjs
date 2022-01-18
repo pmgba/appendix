@@ -92,7 +92,7 @@ export default {
     ],
   }),
 
-  createContent: (search) => ({
+  getContent: (search) => ({
     title: "yes",
     content: ('id' in search) && (search.id >=0) && search.id <=200
       ? createSubPage(~~search.id)

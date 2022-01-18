@@ -11,19 +11,19 @@ function createMain() {
     type: 'list',
     columns: [
       {
-        header: '图标',
+        text: '图标',
       },
       {
-        header: '招式',
+        text: '招式',
       },
       {
-        header: '伤害',
+        text: '伤害',
       },
       {
-        header: '充能时间'
+        text: '充能时间'
       },
       {
-        header: '说明',
+        text: '说明',
         align: 'left',
         width: '50%'
       }
@@ -59,19 +59,19 @@ function createSub(skillIndex, skillData) {
     type: 'list',
     columns: [
       {
-        header: '图标',
+        text: '图标',
       },
       {
-        header: '宝可梦',
+        text: '宝可梦',
       },
       {
-        header: '属性'
+        text: '属性'
       },
       {
-        header: 'HP'
+        text: 'HP'
       },
       {
-        header: '攻击力'
+        text: '攻击力'
       }
     ],
     list: quest.data.get('pokemonDataSet').m_datas
@@ -128,8 +128,8 @@ export default {
     ],
   }),
 
-  createContent: (search) => {
-    let data = quest.data.get('skillDataResourcesSet').m_datas[search.id];
+  getContent: (search) => {
+    let data = search?.id && quest.data.get('skillDataResourcesSet').m_datas[search.id];
     if (data) {
       return createSub(~~search.id, data);
     }

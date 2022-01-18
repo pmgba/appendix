@@ -410,21 +410,21 @@ class Stage {
           type: 'list',
           columns: [{
             width: '8%',
-            header: '序号'
+            text: '序号'
           }, {
             width: '140px',
-            header: '影响范围'
+            text: '影响范围'
           }, {
             width: '140px',
-            header: '图案',
+            text: '图案',
             style: 'vertical-align: middle',
           }, {
-            header: '干扰',
+            text: '干扰',
             align: 'left'
           }],
           list: list,
           hover: false,
-          card: true,
+          striped: false,
         });
       }
     }
@@ -570,23 +570,27 @@ async function init(...types) { // main, extra, event
       flex-direction: column-reverse;
       resize: vertical;
     }
+
     .p-grid-border {
       border: 1px solid #ccc;
       padding: 16px;
       border-radius: 12px;
-      margin: auto;
+      margin: 16px auto !important;
     }
     
     .p-grid {
       position: relative;
-      margin: auto;
+      margin: auto !important;
       padding: 0;
-      border: none;
+      border: none !important;
       background: none;
       user-select: none;
+      width: unset !important;
+      overflow: unset !important;
     }
+
     .p-grid + .p-grid {
-      margin-top: 16px;
+      margin-top: 16px !important;
     }
 
     .p-grid caption {
@@ -603,10 +607,10 @@ async function init(...types) { // main, extra, event
     }
 
     .p-grid td {
-      border: 1px solid #ddd;
+      border: 1px solid #ddd !important;
       position: relative;
       overflow: hidden;
-      padding: 0;
+      padding: 0 !important;
       background: white;
     }
 

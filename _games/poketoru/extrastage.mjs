@@ -18,19 +18,19 @@ function createMainPage() {
   let list = databook.component.create({
     type: 'list',
     columns: [{
-      header: '编号',
+      text: '编号',
     }, {
-      header: '图标',
+      text: '图标',
     }, {
-      header: '宝可梦',
+      text: '宝可梦',
     }, {
-      header: '属性',
+      text: '属性',
     }, {
-      header: '时间',
+      text: '时间',
     }, {
-      header: 'HP',
+      text: 'HP',
     }, {
-      header: '初始布局',
+      text: '初始布局',
     }],
     list: stages.map(stage => {
       let pokemon = stage.getPokemon();
@@ -82,7 +82,11 @@ export default {
     let id = ~~search?.id;
     let stage = stageloader.getStage('extra', id);
     if (search && ('id' in search) && stage) {
-      return stage.getContent();
+      let pokemon = stage.getPokemon();
+      return {
+        subtitle: pokemon.name,
+        content: stage.getContent(),
+      }
     }
     else {
       return createMainPage();

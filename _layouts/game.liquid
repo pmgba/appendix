@@ -1,0 +1,30 @@
+---
+layout: article
+---
+
+{{content}}
+
+<script>
+  window.addEventListener("db-dynamic-loaded", () => {
+    databook.event.addEventListener("dynamicloaded", e => {
+      let nav = databook.dynamic.config.navigation;
+      let html = '<div>';
+      for(let group of nav) {
+        if(!group.text) continue;
+        html += `<h3>${group.text}</h3><ul class="c-gallery c-gallery--small">`;
+        for(let item of group.items) {
+          let icon = (item.icon ?? group.default_icon) ? `<i class=" fas fa-${item.icon ?? group.default_icon} fa-fw"></i>` : '<img src="/assets/icon.png" />';
+          html += `<li class="c-gallery__item">
+      <a class="c-gallery__link" href="${item.url}">
+        <div class="c-gallery__image">${icon}</div>
+        <div class="c-gallery__text">${item.title}</div>
+      </a>
+    </li>`;
+        }
+        html += '</ul>';
+      }
+      html += '</div>';
+      document.querySelector('.l-article__content').innerHTML += html;
+    });
+  });
+</script>

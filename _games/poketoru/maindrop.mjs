@@ -23,15 +23,15 @@ function createArea(areaIndex) {
   html += databook.component.create({
     type: 'list',
     columns: [{
-      header: '编号',
+      text: '编号',
     }, {
-      header: '图标',
+      text: '图标',
     }, {
-      header: '宝可梦',
+      text: '宝可梦',
     }, {
-      header: '属性',
+      text: '属性',
     }, {
-      header: '掉落',
+      text: '掉落',
     }],
     list: list,
     hover: false,

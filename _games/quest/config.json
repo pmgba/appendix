@@ -7,8 +7,17 @@
   ],
   "navigation": [
     {
+      "items": [
+        {
+          "url": "./",
+          "title": "首页",
+          "icon": "home"
+        }
+      ]
+    },
+    {
       "text": "资料",
-      "default_icon": "file",
+      "default_icon": "file-alt",
       "items": [
         {
           "url": "#!/pokemon",
@@ -22,7 +31,7 @@
     },
     {
       "text": "工具",
-      "default_icon": "file",
+      "default_icon": "file-alt",
       "items": [
         {
           "url": "#!/iv",

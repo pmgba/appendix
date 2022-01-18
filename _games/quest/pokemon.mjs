@@ -3,7 +3,7 @@ import quest from './quest.mjs';
 function createMain() {
   let list = databook.component.create({
     type: 'list',
-    columns: ['图标', '编号', '宝可梦', '属性', 'HP', '攻击力'],
+    headers: ['图标', '编号', '宝可梦', '属性', 'HP', '攻击力'],
     list: quest.data.get('pokemonDataSet').m_datas
       .map((pokemonData, index) => [
         quest.sprite.get('pokemon', pokemonData.m_monsterNo, 24),
@@ -42,16 +42,16 @@ function createSub(pokemonIndex) {
     type: 'list',
     columns: [
       {
-        header: '招式',
+        text: '招式',
       },
       {
-        header: '伤害',
+        text: '伤害',
       },
       {
-        header: '充能时间'
+        text: '充能时间'
       },
       {
-        header: '说明',
+        text: '说明',
         align: 'left',
         width: '50%'
       }
@@ -96,7 +96,7 @@ export default {
     });
   },
 
-  createForm: () => ({
+  getForm: () => ({
     items: [
       {
         label: "Pokemon:",
@@ -113,7 +113,7 @@ export default {
     ],
   }),
 
-  createContent: (search) => {
+  getContent: (search) => {
     let id = ~~search?.id;
     if (id > 0 && id <= 151) {
       return createSub(id);

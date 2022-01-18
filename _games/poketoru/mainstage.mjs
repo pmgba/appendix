@@ -66,10 +66,9 @@ function createMainPage() {
     }
     html += databook.component.create({
       type: 'table',
-      style: 'table-layout:fixed;',
+      style: 'table-layout:fixed;text-align:center;',
       body: list,
       hover: false,
-      card: true,
     });
   }
 
@@ -103,25 +102,24 @@ function createArea(areaIndex) {
   html += databook.component.create({
     type: 'list',
     columns: [{
-      header: '编号',
+      text: '编号',
     }, {
-      header: '图标',
+      text: '图标',
     }, {
-      header: '宝可梦',
+      text: '宝可梦',
     }, {
-      header: '属性',
+      text: '属性',
     }, {
-      header: '步数',
+      text: '步数',
     }, {
-      header: 'HP',
+      text: 'HP',
     }, {
-      header: '初始布局',
+      text: '初始布局',
     }, {
-      header: '掉落',
+      text: '掉落',
     }],
     list: list,
     hover: false,
-    card: true,
   });
 
   return {

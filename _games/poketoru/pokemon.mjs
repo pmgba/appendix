@@ -27,7 +27,7 @@ function createSub(id) {
     card: true,
   });
 
-  let megaList = pokemon.getMega();
+  let megaList = pokemon.getMega().map(x => poketoru.pokemon[x]);
   for (let mega of megaList) {
     info += databook.component.create({
       type: 'info',
@@ -73,38 +73,36 @@ function createSub(id) {
         type: 'list',
         columns: [
           {
-            header: '技能',
+            text: '技能',
           },
           {
-            header: '效果',
+            text: '效果',
           }
         ],
         list: [
           [data.name,
             data.desc]
         ],
-        card: false,
-        small: true,
-        attr: 'style="border-bottom: none;margin-bottom: 0;"'
+        style: 'border-bottom: none;margin-bottom: 0;'
       });
 
       let details = databook.component.create({
         type: 'list',
         columns: [
           {
-            header: '参数',
+            text: '参数',
             width: '20%',
           },
           {
-            header: '基础',
+            text: '基础',
             width: '20%',
           },
           {
-            header: '升级',
+            text: '升级',
             span: 4,
           },
           {
-            header: '最终',
+            text: '最终',
             width: '20%',
           }
         ],
@@ -114,20 +112,11 @@ function createSub(id) {
           ['升级经验', '-', ...data.exp, '-'],
           ['满级伤害', '', '', '', '', '', damage3]
         ],
-        card: false,
+        style: 'margin-top:-1px;font-size:small;',
         small: true,
-        attr: 'style="margin-top:-1px;font-size:small;"'
       });
 
-      return databook.component.create({
-        type: 'table',
-        body: [
-          [info],
-          [details]
-        ],
-        card: true,
-        small: true,
-      });
+      return info + details;
     })
     .join('')
     ;
@@ -138,16 +127,16 @@ function createSub(id) {
     type: 'list',
     columns: [
       {
-        header: '等级',
+        text: '等级',
       },
       {
-        header: '攻击力',
+        text: '攻击力',
       },
       {
-        header: '下一级经验值'
+        text: '下一级经验值'
       },
       {
-        header: '总计经验值',
+        text: '总计经验值',
       }
     ],
     list: [...Array(pokemon.maxLevel).keys()]

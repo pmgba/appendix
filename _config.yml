@@ -10,19 +10,7 @@ copyright:   "2018-2021"
 language:    "zh-CN"
 npm_cdn:     "https://cdn.jsdelivr.net/npm/"
 scheme:      "light" # "dark", "light"
-comments:    "disqus" # false, "disqus", "gitalk", ...
 port: 12345
-google_analytics:
-  id:        ""
-disqus:
-  shortname: ""
-gitalk:
-  clientID:  ""
-  clientSecret: ""
-  repo:      ""
-  owner:     ""
-  proxy:     ""
-
 
 #################
 # Page settings #

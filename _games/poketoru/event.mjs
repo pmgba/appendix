@@ -15,7 +15,7 @@ function getBeginTime(eventStage) {
 }
 
 function getDuration(eventStage) {
-  return (eventStage.LoopDuration / 60 / 24 || 1) + '天';
+  return Math.round(eventStage.LoopDuration / 60 / 24 || 1) + '天';
 }
 
 function createMainpage() {

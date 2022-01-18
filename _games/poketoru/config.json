@@ -27,7 +27,7 @@
     },
     {
       "text": "资料",
-      "default_icon": "file",
+      "default_icon": "file-alt",
       "items": [
         {
           "url": "#!/pokemon",
@@ -49,7 +49,7 @@
     },
     {
       "text": "关卡",
-      "default_icon": "file",
+      "default_icon": "file-alt",
       "items": [
         {
           "url": "#!/mainstage",
