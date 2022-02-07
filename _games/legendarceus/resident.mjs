@@ -49,6 +49,10 @@ function createMain() {
           <span>大量出现</span>
         </label>
         <label class="c-checkbutton">
+          <input type="checkbox" onclick="document.querySelector('.p-canvas').classList.toggle('p-canvas--wormhole');updateCanvas();"> 
+          <span>时空扭曲</span>
+        </label>
+        <label class="c-checkbutton">
           <input type="checkbox" onclick="document.querySelector('.p-canvas').classList.toggle('p-canvas--unnn');updateCanvas();"> 
           <span>未知图腾</span>
         </label>
@@ -69,6 +73,7 @@ function createMain() {
     <img class="p-canvas__layer p-canvas__mass" />
     <img class="p-canvas__layer p-canvas__oybn" />
     <img class="p-canvas__layer p-canvas__event" />
+    <img class="p-canvas__layer p-canvas__wormhole" />
     <img class="p-canvas__layer p-canvas__unnn" />
     <img class="p-canvas__layer p-canvas__mkrg" />
   </div>
@@ -84,11 +89,12 @@ function createMain() {
 window.updateCanvas = function ()
 {
   let area = document.querySelector('.p-canvas').dataset["area"];
-  document.querySelector('.p-canvas__background').src = `./images/resident/area0${area}.png`;
+  document.querySelector('.p-canvas__background').src = `./images/resident/area0${area}.jpg`;
   document.querySelector('.p-canvas__encounter').src  = `./images/resident/encounter.ha_area0${area}.png`;
   document.querySelector('.p-canvas__oybn').src = `./images/resident/oyabun.ha_area0${area}.png`;
   document.querySelector('.p-canvas__event').src = `./images/resident/event.ha_area0${area}.png`;
   document.querySelector('.p-canvas__mass').src = `./images/resident/mass.ha_area0${area}.png`;
+  document.querySelector('.p-canvas__wormhole').src = `./images/resident/wormhole.ha_area0${area}.png`;
   document.querySelector('.p-canvas__unnn').src = `./images/resident/unown.ha_area0${area}.png`;
   document.querySelector('.p-canvas__mkrg').src = `./images/resident/mikaruge.ha_area0${area}.png`;
 }
@@ -115,6 +121,7 @@ async function init() {
   .p-canvas--mass .p-canvas__mass,
   .p-canvas--unnn .p-canvas__unnn,
   .p-canvas--mkrg .p-canvas__mkrg,
+  .p-canvas--wormhole .p-canvas__wormhole,
   .p-canvas__background 
   {
     display: block;
