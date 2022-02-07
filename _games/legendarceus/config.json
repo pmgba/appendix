@@ -1,0 +1,30 @@
+{
+  "js": [
+    "./common.mjs"
+  ],
+  "css": [
+
+  ],
+  "navigation": [
+    {
+      "items": [
+        {
+          "url": "./",
+          "title": "首页",
+          "icon": "home"
+        }
+      ]
+    },
+    {
+      "text": "资料",
+      "default_icon": "file-alt",
+      "items": [
+        {
+          "url": "#!/resident",
+          "icon": "map",
+          "title": "分布"
+        }
+      ]
+    }
+  ]
+}
