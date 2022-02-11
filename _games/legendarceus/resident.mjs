@@ -19,19 +19,15 @@ function createMain() {
   }
 
   var html = `
-  <form>
-  <div class="form-group row">
-    <label class="col-sm-2 col-form-label">地图</label>
+  <div class="row">
+    <label class="col-sm-2">地图</label>
     <div class="col-sm-10">
-    <div class="btn-group btn-group-toggle" data-toggle="buttons">
     ${mapbuttons}
-  </div>
     </div>
     </div>
-    <div class="form-group row">
-    <label class="col-sm-2 col-form-label">内容</label>
+    <div class="row">
+    <label class="col-sm-2">内容</label>
       <div class="col-sm-10">
-        <div class="btn-group-toggle" data-toggle="buttons">
         <label class="c-checkbutton">
           <input type="checkbox" onclick="document.querySelector('.p-canvas').classList.toggle('p-canvas--encounter');updateCanvas();">
           <span>野生</span>
@@ -60,10 +56,16 @@ function createMain() {
           <input type="checkbox" onclick="document.querySelector('.p-canvas').classList.toggle('p-canvas--mkrg');updateCanvas();"> 
           <span>幽火</span>
         </label>
-        </div>
+        <label class="c-checkbutton">
+          <input type="checkbox" onclick="document.querySelector('.p-canvas').classList.toggle('p-canvas--searchitem');updateCanvas();"> 
+          <span>挖宝</span>
+        </label>
+        <label class="c-checkbutton">
+          <input type="checkbox" onclick="document.querySelector('.p-canvas').classList.toggle('p-canvas--poem');updateCanvas();"> 
+          <span>古老诗文</span>
+        </label>
       </div>
     </div>
-  </form>
 
   <div class="row">
   <div class="col-sm-12">
@@ -76,6 +78,8 @@ function createMain() {
     <img class="p-canvas__layer p-canvas__wormhole" />
     <img class="p-canvas__layer p-canvas__unnn" />
     <img class="p-canvas__layer p-canvas__mkrg" />
+    <img class="p-canvas__layer p-canvas__searchitem" />
+    <img class="p-canvas__layer p-canvas__poem" />
   </div>
   </div>
   </div>
@@ -97,6 +101,8 @@ window.updateCanvas = function ()
   document.querySelector('.p-canvas__wormhole').src = `./images/resident/wormhole.ha_area0${area}.png`;
   document.querySelector('.p-canvas__unnn').src = `./images/resident/unown.ha_area0${area}.png`;
   document.querySelector('.p-canvas__mkrg').src = `./images/resident/mikaruge.ha_area0${area}.png`;
+  document.querySelector('.p-canvas__searchitem').src = `./images/resident/searchitem.ha_area0${area}.png`;
+  document.querySelector('.p-canvas__poem').src = `./images/resident/poem.ha_area0${area}.png`;
 }
 
 async function init() {
@@ -122,11 +128,16 @@ async function init() {
   .p-canvas--unnn .p-canvas__unnn,
   .p-canvas--mkrg .p-canvas__mkrg,
   .p-canvas--wormhole .p-canvas__wormhole,
+  .p-canvas--searchitem .p-canvas__searchitem,
+  .p-canvas--poem .p-canvas__poem,
   .p-canvas__background 
   {
     display: block;
   }
 
+  .c-checkbutton {
+    margin-bottom: 1rem;
+  }
   `);
 }
 
