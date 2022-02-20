@@ -9,12 +9,12 @@ const mapNames = [
 
 const layerNames = {
   "encounter": "野生",
-  "oybn": "头目",
+  "oyabun": "头目",
   "event": "任务",
   "mass": "大量出现",
   "wormhole": "时空扭曲",
-  "unnn": "未知图腾",
-  "mkrg": "幽火",
+  "unown": "未知图腾",
+  "mikaruge": "幽火",
   "searchitem": "挖宝",
   "poem": "古老诗文",
   "bandits": "野贼三姐妹",
