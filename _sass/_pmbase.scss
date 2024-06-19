@@ -26,6 +26,7 @@
 
   &__link {
     display: block;
+
     &:hover {
       text-decoration: none;
     }
@@ -36,19 +37,139 @@
     font-size: 64px;
   }
 
-  &__text{
-     padding: .5rem;
-     font-weight: bold;
+  &__text {
+    padding: .5rem;
+    font-weight: bold;
   }
 
   a {
     text-decoration: none;
     color: inherit;
-  
+
     &:hover {
       text-decoration: none;
       color: inherit;
     }
   }
-  
+
+}
+
+$stat-colors: (
+  "hp": #77f296,
+  "atk": #f4e585,
+  "def": #ffb17a,
+  "spatk": #88dee3,
+  "spdef": #859fff,
+  "spd": #d880ff,
+);
+
+@each $name, $color in $stat-colors {
+  .m-text--#{$name} {
+    color: darken($color, 35%);
+  }
+}
+
+.pt-icon {
+  vertical-align: middle;
+}
+
+.pt-icon:has(+ .pt-icon) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.pt-icon+.pt-icon {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+
+.pt-label-container {
+  $iconsize: 2em;
+
+  align-items: center;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-grid;
+  grid-template-columns: $iconsize 1fr;
+  height: $iconsize;
+  min-width: $iconsize;
+  border-radius: $iconsize / 8;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  background-image: linear-gradient(90deg,
+    var(--pt-color),
+    var(--pt-color) #{$iconsize},
+    #fff #{$iconsize},
+    #fff);
+  border: 1px solid var(--pt-color);
+  padding-right: $iconsize / 4;
+  column-gap: $iconsize / 4;
+  text-align: center;
+
+  &::before {
+    content: '';
+    mask-image: var(--pt-iconurl);
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: 80%;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+  }
+
+}
+
+.c-dualtype {
+  font-size: 1.5em;
+  display: grid;
+  overflow: hidden;
+  justify-content: center;
+
+  div {
+    height: 1em;
+    display: block;
+    position: relative;
+    border-radius: 10%;
+
+    &::before {
+      background-color: #fff;
+      content: '';
+      mask: var(--pt-iconurl) center / 80% no-repeat;
+      display: block;
+      width: 1em;
+      height: 1em;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    &:only-child {
+      background-color: var(--pt-color);
+      width: 1em;
+    }
+
+    &:has(+ div) {
+      background-color: var(--pt-color);
+      width: 2em;
+      grid-column-start: 1;
+      grid-row-start: 1;
+    }
+
+    +div {
+      width: 2em;
+      background-image: linear-gradient(100deg, transparent, transparent 50%, var(--pt-color) calc(50% + 1px), var(--pt-color));
+
+      grid-column-start: 1;
+      grid-row-start: 1;
+
+      &::before {
+        left: unset;
+        right: 0;
+      }
+    }
+
+  }
 }

@@ -104,8 +104,8 @@ class Stage {
       ? [...new Set(this.data.Ranks)].map((v, i) => `<span style="color:${rankColorArray[i]};font-weight:bold;">${rankTextArray[i]}：${v}</span>`).join(' / ')
       : false;
 
-    let defaultPokemonIcons = poketoru.data.get('PokemonSet', this.data.PokemonSetIndex).slice(0, this.data.DefaultPokemonCount).map(x => getPiece(pieceMap[x] ?? x, 24, false, true)).join('');
-    let itemText = poketoru.data.get('ItemPattern', this.data.Itemset).Items.filter(x => x > 0).map(x => poketoru.items[x].getSprite(24)).join('');
+    let defaultPokemonIcons = poketoru.database.get('PokemonSet', this.data.PokemonSetIndex).slice(0, this.data.DefaultPokemonCount).map(x => getPiece(pieceMap[x] ?? x, 24, false, true)).join('');
+    let itemText = poketoru.database.get('ItemPattern', this.data.Itemset).Items.filter(x => x > 0).map(x => poketoru.items[x].getSprite(24)).join('');
     let costText = this.data.CostType == 0 ? `${poketoru.sprite.get('item', '422ED65C', 24)}×${this.data.CostValue}`
       : `${poketoru.sprite.get('item', '13F1339E', 24)}×${this.data.CostValue}`;
 
@@ -168,7 +168,7 @@ class Stage {
       'extra': 'StageLayoutExtra',
       'event': 'StageLayoutEvent'
     }[this.type];
-    return poketoru.data.get(name);
+    return poketoru.database.get(name);
   }
 
   getLayout(screenIndex = 0) {
@@ -215,7 +215,7 @@ class Stage {
       let prob = this.data[`Drop${i}Probabirity`];
       let type = this.data[`Drop${i}type`];
       if (type == 0) continue;
-      let dropItem = poketoru.data.get('StageDropItem', type);
+      let dropItem = poketoru.database.get('StageDropItem', type);
       let itemText = (dropItem.Type == 7) ? poketoru.sprite.get('item', 'D4B414F0', 24)
         : '';
       drops.push({
@@ -300,7 +300,7 @@ class Stage {
       actionText += '</ul>';
       html += actionText;
 
-      let indexes = poketoru.data.get('BossAction', action.ActionIndex).filter(Boolean);
+      let indexes = poketoru.database.get('BossAction', action.ActionIndex).filter(Boolean);
       let list = [];
       let cellSize = 16;
 
@@ -315,7 +315,7 @@ class Stage {
           continue;
         }
 
-        let bapd = poketoru.data.get('BossActionPokemonData', indexes[i]);
+        let bapd = poketoru.database.get('BossActionPokemonData', indexes[i]);
         let
           x = bapd.X,
           y = bapd.Y,
@@ -332,7 +332,7 @@ class Stage {
           //areaText = `整个盘面`;
 
           let baslIndex = bapd.Blocks[0];
-          let basl = poketoru.data.get('BossActionStageLayout').slice(baslIndex, baslIndex + 6);
+          let basl = poketoru.database.get('BossActionStageLayout').slice(baslIndex, baslIndex + 6);
           let patternGrid = new Grid(6, 6);
           let pieces = [];
           for (let iy = 0; iy < basl.length; iy++) {
@@ -550,16 +550,16 @@ async function init(...types) { // main, extra, event
     modules['StageLayoutEvent'] = `./data/StageLayoutEvent.json`;
   }
 
-  await poketoru.data.load(modules);
+  await poketoru.database.load(modules);
 
   if (types.includes('main')) {
-    stages.push(...poketoru.data.get('StageData').map((data, i) => new Stage(data, 'main', i)).slice(1));
+    stages.push(...poketoru.database.get('StageData').map((data, i) => new Stage(data, 'main', i)).slice(1));
   }
   if (types.includes('extra')) {
-    stages.push(...poketoru.data.get('StageDataExtra').map((data, i) => new Stage(data, 'extra', i)));
+    stages.push(...poketoru.database.get('StageDataExtra').map((data, i) => new Stage(data, 'extra', i)));
   }
   if (types.includes('event')) {
-    stages.push(...poketoru.data.get('StageDataEvent').map((data, i) => new Stage(data, 'event', i)));
+    stages.push(...poketoru.database.get('StageDataEvent').map((data, i) => new Stage(data, 'event', i)));
   }
 
   databook.util.addCSS(`

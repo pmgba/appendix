@@ -109,42 +109,6 @@ function createSub(id) {
   };
 }
 
-export default {
-
-  title: "宝可梦",
-
-  init: async () => {
-    await poketoru.init('pokemon', 'ability');
-  },
-
-  getForm: () => ({
-    items: [
-      {
-        label: "Skills:",
-        name: "id",
-        type: "select",
-        prevnext: true,
-        data: poketoru.abilities
-          .map((ability, i) => [
-            i,
-            '#' + i + ' ' + ability.name
-          ])
-          .slice(1),
-      }
-    ],
-  }),
-
-  getContent: (search) => {
-    let id = ~~search?.id;
-    if (id > 0) {
-      return createSub(id);
-    }
-    else {
-      return createMainPage();
-    }
-  },
-};
-
 function createMainPage() {
   let list = databook.component.create({
     type: 'list',
@@ -188,3 +152,38 @@ function createMainPage() {
   };
 }
 
+
+export default {
+
+  title: "能力",
+
+  init: async () => {
+    await poketoru.init('pokemon', 'ability');
+  },
+
+  form: () => ({
+    items: [
+      {
+        name: "id",
+        type: "select",
+        prevnext: true,
+        data: poketoru.abilities
+          .map((ability, i) => [
+            i,
+            '#' + i + ' ' + ability.name
+          ])
+          .slice(1),
+      }
+    ],
+  }),
+
+  change: (location) => {
+    let id = ~~location.searchParams?.get('id');
+    if (id in poketoru.abilities) {
+      return createSub(id);
+    }
+    else {
+      return createMainPage();
+    }
+  },
+};

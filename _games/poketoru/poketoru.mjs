@@ -37,44 +37,44 @@ class Poketoru extends Game {
   }
 
   async init(...moduleNames) {
-    this.data.setVersion(version);
+    this.database.setVersion(version);
 
     let modules = {};
     for (let n of moduleNames) {
       Object.assign(modules, loaderModules[n]);
     }
-    await this.data.load(modules);
+    await this.database.load(modules);
 
     if (moduleNames.includes('pokemon')) {
-      this.pokemon = this.data.get('PokemonData').map((data, i) => new Pokemon(data, i));
+      this.pokemon = this.database.get('PokemonData').map((data, i) => new Pokemon(data, i));
       this.sprite.add('pokemon', {
         url: './images/pokemon.sprite.jpg',
         width: 60,
         height: 60,
         col: 30,
-        keys: this.data.get('pokemon.keys')
+        keys: this.database.get('pokemon.keys')
       });
     }
 
     if (moduleNames.includes('ability')) {
-      this.abilities = this.data.get('PokemonAbility').map((data, i) => new Ability(data, i));
+      this.abilities = this.database.get('PokemonAbility').map((data, i) => new Ability(data, i));
     }
 
     if (moduleNames.includes('item')) {
-      this.items = this.data.get('ItemData').map((data, i) => new Item(data, i));
+      this.items = this.database.get('ItemData').map((data, i) => new Item(data, i));
       this.sprite.add('item', {
         url: './images/items.sprite.png',
         width: 32,
         height: 32,
         col: 10,
-        keys: this.data.get('items.keys')
+        keys: this.database.get('items.keys')
       });
     }
   }
 
   getType(type) {
-    let data = poketoru.data.get('PokemonType', type);
-    let text = poketoru.data.get('MessagePokemonType', data.NameIndex).Text;
+    let data = poketoru.database.get('PokemonType', type);
+    let text = poketoru.database.get('MessagePokemonType', data.NameIndex).Text;
     return text;
   }
 
@@ -89,8 +89,8 @@ class Pokemon {
     this.id = id;
     this.abilities = [pokemonData.Ability, ...pokemonData.MutableAbility].filter(x => x > 0);
     this.dex = pokemonData.DexNumber.toString().padStart(3, '0');
-    this.name = poketoru.data.get('MessagePokemonList', pokemonData.NameIndex).Text;
-    this.fullname = this.name + (pokemonData.FormIndex ? `～${poketoru.data.get('MessagePokemonList', pokemonData.FormIndex).Text}～` : '');
+    this.name = poketoru.database.get('MessagePokemonList', pokemonData.NameIndex).Text;
+    this.fullname = this.name + (pokemonData.FormIndex ? `～${poketoru.database.get('MessagePokemonList', pokemonData.FormIndex).Text}～` : '');
     this.type = pokemonData.Type;
 
     if (pokemonData.IsMega) {
@@ -98,8 +98,8 @@ class Pokemon {
       this.megaSpeed = pokemonData.MegaSpeed;
       this.msu = pokemonData.MegaSkillUpUseMax;
 
-      var descIndex = poketoru.data.get('MegaEvolution', pokemonData.Ability).DescIndex;
-      this.megaEffect = poketoru.data.get('MessagePokedex', descIndex).Text.replace('{megaName}', this.name);
+      var descIndex = poketoru.database.get('MegaEvolution', pokemonData.Ability).DescIndex;
+      this.megaEffect = poketoru.database.get('MessagePokedex', descIndex).Text.replace('{megaName}', this.name);
     }
     else {
       this.rml = pokemonData.LevelLimitUpperUseMax;
@@ -131,7 +131,7 @@ class Pokemon {
   }
 
   getAtk(level) {
-    return poketoru.data.get('PokemonAttack', level - 1)[this.group - 1];
+    return poketoru.database.get('PokemonAttack', level - 1)[this.group - 1];
   }
 
 }
@@ -143,8 +143,8 @@ class Ability {
     this.#data = abilityData;
 
     this.id = id;
-    this.name = poketoru.data.get('MessagePokedex', abilityData.NameIndex)?.Text;
-    this.desc = poketoru.data.get('MessagePokedex', abilityData.DescIndex)?.Text;
+    this.name = poketoru.database.get('MessagePokedex', abilityData.NameIndex)?.Text;
+    this.desc = poketoru.database.get('MessagePokedex', abilityData.DescIndex)?.Text;
 
     this.exp = abilityData.Exp;
     this.value = abilityData.Value;

@@ -2,50 +2,40 @@ import nobunaga from './nobunaga.mjs';
 
 const scenarioText = ['主线', '剧本A', '剧本B', '剧本C', '剧本D', '剧本E', '剧本F', '剧本G', '剧本H', '剧本I', '剧本J'];
 
+[
+  nobunaga.pokemon,
+  nobunaga.building,
+  nobunaga.kuni,
+  nobunaga.scenario,
+] = await Promise.all([
+  databook.loader.getJson('./data/pokemon.json'),
+  databook.loader.getJson('./data/building.json'),
+  databook.loader.getJson('./data/kuni.json'),
+  databook.loader.getJson('./data/Scenario.json'),
+]);
+
 function createMainPage() {
-  let list = jekyllbook.component.create({
-    type: 'list',
-    sortable: true,
-    columns: [
-      '宝可梦',
-      '属性',
-      'HP',
-      '攻击力',
-      '防御力',
-      '速度',
-      '移动',
-    ],
-    list: nobunaga.pokemon.map((pkmnData, pkmnIndex) => [
-      `<a href="#!/pokemon?id=${pkmnIndex}">${pkmnData.Name}</a>`,
-      [...new Set(pkmnData.Types)].filter(x => x >= 0).join('/'),
-      pkmnData.HP,
-      pkmnData.Stats[0],
-      pkmnData.Stats[1],
-      pkmnData.Stats[2],
-      pkmnData.Movement,
-    ]),
-  });
-  return list;
+  return null;
 }
 
 function createSubPage(kuniIndex) {
   let html = '';
 
   html += '<h3>设施</h3>';
-  html += jekyllbook.component.create({
+  html += databook.component.create({
     type: 'list',
     columns: [
       '图标',
-      '宝可梦',
+      '名字',
     ],
-    list: nobunaga.building.filter( buildingData => buildingData.Kuni == kuniIndex ).map( (buildingData, kuniIndex) => [
+    list: nobunaga.building.filter( buildingData => buildingData.Kuni == kuniIndex && buildingData.Icons[0] > -1 ).map( (buildingData, kuniIndex) => [
       nobunaga.sprite.get('building', buildingData.Icons[0]),
       buildingData.Name,
     ]),
   });
 
   html += '<h3>野生宝可梦</h3>';
-  html += jekyllbook.component.create({
+  html += databook.component.create({
     type: 'list',
     columns: [
       '图标',
@@ -64,23 +54,9 @@ function createSubPage(kuniIndex) {
 
 export default {
 
-  init: async () => {
-    [
-      nobunaga.pokemon,
-      nobunaga.building,
-      nobunaga.kuni,
-      nobunaga.scenario,
-    ] = await Promise.all([
-      jekyllbook.loader.getJson('./data/pokemon.json'),
-      jekyllbook.loader.getJson('./data/building.json'),
-      jekyllbook.loader.getJson('./data/kuni.json'),
-      jekyllbook.loader.getJson('./data/Scenario.json'),
-    ]);
-  },
-
   title: "国家",
 
-  createForm: () => ({
+  form: () => ({
     items: [
       {
         label: "Kuni:",
@@ -92,11 +68,13 @@ export default {
     ],
   }),
 
-  getContent: (search) => ({
-    title: "yes",
-    content: ('id' in search) && (search.id >=0) && search.id <=200
-      ? createSubPage(~~search.id)
-      : createMainPage(),
-  }),
+  change: (location) => {
+    const id = ~~location.searchParams?.get('id');
+    if (id in nobunaga.kuni) {
+      return createSubPage(id);
+    } else {
+      return createMainPage();
+    }
+  },
 
-}
+};

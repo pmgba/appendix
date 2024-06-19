@@ -28,17 +28,17 @@ sidebar_data:
 <div>
 {% for group in page.sidebar_data.navigation %}
   <h3>{{group.text}}</h3>
-  <ul class="c-gallery">
+  <div class="c-gallery">
   {% for item in group.items %}
-    <li class="c-gallery__item c-gallery--{{item.type}}">
+    <div class="c-gallery__item c-gallery--{{item.type}}">
       <a class="c-gallery__link" href="{{item.url | relative_url }}">
         <div class="c-gallery__image">
           <img src="/assets/icon.png" />
         </div>
         <div class="c-gallery__text">{{item.text}}</div>
       </a>
-    </li>
+    </div>
   {% endfor %}
-  </ul>
+  </div>
 {% endfor %}
 </div>

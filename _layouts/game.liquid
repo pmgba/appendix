@@ -1,5 +1,8 @@
 ---
 layout: article
+sidebar:
+ - 1
+toc: false
 ---
 
 {{content}}
@@ -7,25 +10,24 @@ layout: article
 <script>
   window.addEventListener("databookloaded", () => {
   databook.event.addEventListener("dynamicloaded", () => {
-    console.log(databook.dynamic);
     let nav = databook.dynamic.config.navigation;
     let html = '<div>';
     for(let group of nav) {
       if(!group.text) continue;
-      html += `<h3>${group.text}</h3><ul class="c-gallery c-gallery--small">`;
+      html += `<h3>${group.text}</h3><div class="c-gallery c-gallery--small">`;
       for(let item of group.items) {
         let icon = (item.icon ?? group.default_icon) ? `<i class=" fas fa-${item.icon ?? group.default_icon} fa-fw"></i>` : '<img src="/assets/icon.png" />';
-        html += `<li class="c-gallery__item">
+        html += `<div class="c-gallery__item">
     <a class="c-gallery__link" href="${item.url}">
       <div class="c-gallery__image">${icon}</div>
       <div class="c-gallery__text">${item.title}</div>
     </a>
-  </li>`;
+  </div>`;
       }
-      html += '</ul>';
+      html += '</div>';
     }
     html += '</div>';
-    document.querySelector('.l-article__content').innerHTML += html;
+    document.querySelector('.l-page__content').innerHTML += html;
   });
   });
 </script>

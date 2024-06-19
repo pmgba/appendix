@@ -41,7 +41,7 @@ function createMain() {
     layerhtml += `<img class="p-canvas__layer p-canvas__${key}" />`;
   });
 
-  var html = `
+  const html = `
   <div class="row">
     <label class="col-sm-2">地图</label>
     <div class="col-sm-10">
@@ -71,16 +71,16 @@ function createMain() {
 }
 
 window.updateCanvas = function () {
-  let area = document.querySelector('.p-canvas').dataset["area"];
+  const area = document.querySelector('.p-canvas').dataset["area"];
   document.querySelector('.p-canvas__background').src = `./images/resident/area0${area}.jpg`;
   Object.keys(layerNames).forEach(key => {
     document.querySelector(`.p-canvas__${key}`).src = `./images/resident/${key}.ha_area0${area}.png`;
   });
-}
+};
 
 async function init() {
 
-  let layercss = Object.keys(layerNames)
+  const layercss = Object.keys(layerNames)
     .map(key=>`.p-canvas--${key} .p-canvas__${key},`)
     .join('');
 
@@ -118,8 +118,6 @@ export default {
 
   init: init,
 
-  getContent: (search) => {
-    return createMain();
-  },
+  content: createMain
 
-}
+};

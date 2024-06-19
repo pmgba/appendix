@@ -29,7 +29,7 @@ const areaDataArray = [
 ];
 
 function createSelection() {
-  let stages = poketoru.data.get('StageData');
+  let stages = poketoru.database.get('StageData');
   let options = {};
   for (let [begin, end, name] of areaDataArray.slice(1)) {
     let list = [];
@@ -125,13 +125,24 @@ function createArea(areaIndex) {
   return {
     subtitle: `${name}`,
     content: html,
-    breadcrumb: [{
-      level: 1,
-      text: '主线关卡',
-      link: '#!/mainstage',
-    }],
   };
 
+}
+
+function createStage(stage, id) {
+  let pokemon = stage.getPokemon();
+  let areaIndex = areaDataArray.findIndex(x => id >= x[0] && id <= x[1]);
+  
+  return {
+    subtitle: `第${id}关 ${pokemon.name}`,
+    content: stage.getContent(),
+    breadcrumb: [
+      {
+        url: `#!/mainstage?area=${areaIndex}`,
+        text: areaDataArray[areaIndex][2],
+      }
+    ]
+  };
 }
 
 export default {
@@ -143,7 +154,7 @@ export default {
     await stageloader.init('main');
   },
 
-  getForm: () => ({
+  form: () => ({
     items: [
       {
         label: "Stages:",
@@ -155,20 +166,13 @@ export default {
     ],
   }),
 
-  validate(search) {
+  change: (location) => {
+    const id = ~~location.searchParams?.get('id');
+    const area = ~~location.searchParams?.get('area');
+    const stage = stageloader.getStage('main', id);
 
-  },
-
-  getContent: (search) => {
-    let id = ~~search?.id;
-    let area = ~~search?.area;
-    let stage = stageloader.getStage('main', id);
     if (stage) {
-      let pokemon = stage.getPokemon();
-      return {
-        subtitle: pokemon.name,
-        content: stage.getContent(),
-      };
+      return createStage(stage, id);
     }
     else if (area > 0 && area < areaDataArray.length) {
       return createArea(area);

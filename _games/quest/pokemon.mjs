@@ -3,12 +3,12 @@ import quest from './quest.mjs';
 function createMain() {
   let list = databook.component.create({
     type: 'list',
-    headers: ['图标', '编号', '宝可梦', '属性', 'HP', '攻击力'],
-    list: quest.data.get('pokemonDataSet').m_datas
+    columns: ['图标', '编号', '宝可梦', '属性', 'HP', '攻击力'],
+    list: quest.database.get('pokemonDataSet').m_datas
       .map((pokemonData, index) => [
         quest.sprite.get('pokemon', pokemonData.m_monsterNo, 24),
         quest.getNumber(pokemonData.m_monsterNo),
-        quest.getLink('pokemon', { id: pokemonData.m_monsterNo }, quest.data.get('monsname')[pokemonData.m_monsterNo]),
+        quest.getLink('pokemon', { id: pokemonData.m_monsterNo }, quest.database.get('monsname')[pokemonData.m_monsterNo]),
         quest.getTypes([pokemonData.m_type1, pokemonData.m_type2]),
         pokemonData.m_hpBasis,
         pokemonData.m_attackBasis,
@@ -23,9 +23,8 @@ function createMain() {
   };
 }
 
-function createSub(pokemonIndex) {
-  let pokemonData = quest.data.get('pokemonDataSet').m_datas[pokemonIndex];
-  let name = quest.data.get('monsname', pokemonIndex);
+function createSub(pokemonData, pokemonIndex) {
+  let name = quest.database.get('monsname', pokemonIndex);
   let info = databook.component.create({
     type: 'info',
     image: quest.sprite.get('pokemon', pokemonIndex),
@@ -58,12 +57,12 @@ function createSub(pokemonIndex) {
     ],
     list: pokemonData.m_skillIDs
       .filter(skillIndex => skillIndex > 0 && skillIndex < 65535)
-      .map(skillIndex => [quest.data.get('skillDataResourcesSet').m_datas[skillIndex], skillIndex])
+      .map(skillIndex => [quest.database.get('skillDataResourcesSet').m_datas[skillIndex], skillIndex])
       .map(([skillData, skillIndex]) => [
-        quest.getLink('skill', { id: skillIndex }, quest.data.get('skillname', skillIndex)),
+        quest.getLink('skill', { id: skillIndex }, quest.database.get('skillname', skillIndex)),
         Math.round((skillData.m_damagePercent ?? 0) * 100),
         skillData.m_chargeSecond,
-        quest.data.get('skillinfo', skillIndex),
+        quest.database.get('skillinfo', skillIndex),
       ]),
     card: true,
   });
@@ -86,7 +85,7 @@ export default {
   title: "宝可梦",
 
   init: async () => {
-    await quest.data.load({
+    await quest.database.load({
       'pokemonDataSet': './data/auto/pokemon/PokemonDataSet.json',
       'skillDataResourcesSet': './data/auto/skill/SkillDataResourcesSet.json',
       'monsname': './text/zh-Hans/monsname.json',
@@ -96,27 +95,28 @@ export default {
     });
   },
 
-  getForm: () => ({
+  form: () => ({
     items: [
       {
         label: "Pokemon:",
         name: "id",
         type: "select",
         prevnext: true,
-        data: quest.data.get('pokemonDataSet').m_datas
+        data: quest.database.get('pokemonDataSet').m_datas
           .map((data, index) => [
             index,
-            quest.getNumber(index) + quest.data.get('monsname', index)
+            quest.getNumber(index) + quest.database.get('monsname', index)
           ])
           .slice(1)
       }
     ],
   }),
 
-  getContent: (search) => {
-    let id = ~~search?.id;
-    if (id > 0 && id <= 151) {
-      return createSub(id);
+  change: (location) => {
+    const id = ~~location.searchParams?.get('id');
+    const pokemonData = quest.database.get('pokemonDataSet').m_datas[id];
+    if (id > 0 && pokemonData) {
+      return createSub(pokemonData, id);
     }
     else {
       return createMain();

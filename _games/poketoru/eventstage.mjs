@@ -2,7 +2,7 @@ import poketoru from './poketoru.mjs';
 import stageloader from './stageloader.mjs';
 
 function getStageList() {
-  let stages = poketoru.data.get('StageDataEvent');
+  let stages = poketoru.database.get('StageDataEvent');
   let options = stages.map((stageData, i) => {
     let pokemon = poketoru.pokemon[stageData.PokemonId];
     return [
@@ -14,7 +14,7 @@ function getStageList() {
 }
 
 function createMainPage() {
-  let stages = poketoru.data.get('StageDataEvent');
+  let stages = poketoru.database.get('StageDataEvent');
   let list = databook.component.create({
     type: 'list',
     columns: [{
@@ -62,14 +62,14 @@ function createMainPage() {
 
 export default {
 
-  title: "额外关卡",
+  title: "活动关卡",
 
   init: async () => {
     await poketoru.init('pokemon', 'ability', 'item');
     await stageloader.init('event');
   },
 
-  getForm: () => ({
+  form: () => ({
     items: [
       {
         label: "Stages:",
@@ -81,13 +81,13 @@ export default {
     ],
   }),
 
-  getContent: (search) => {
-    let id = ~~search?.id;
-    let stage = stageloader.getStage('event', id);
+  change: (location) => {
+    const id = ~~location.searchParams?.get('id');
+    const stage = stageloader.getStage('event', id);
     if (stage) {
-      let pokemon = stage.getPokemon();
+      const pokemon = stage.getPokemon();
       return {
-        subtitle: pokemon.name,
+        subtitle: pokemon.fullname,
         content: stage.getContent(),
       };
     }

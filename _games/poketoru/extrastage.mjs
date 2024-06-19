@@ -34,7 +34,7 @@ function createMainPage() {
     }],
     list: stages.map(stage => {
       let pokemon = stage.getPokemon();
-      return([
+      return ([
         stage.id + 1,
         `<a href="#!/pokemon?id=${pokemon.id}">${pokemon.getSprite()}</a>`,
         `<a href="#!/extrastage?id=${stage.id}">${pokemon.name}</a>`,
@@ -57,6 +57,14 @@ function createMainPage() {
   };
 }
 
+function createStage(stage, id) {
+  let pokemon = stage.getPokemon();
+  return {
+    subtitle: `第${id + 1}关 ${pokemon.name}`,
+    content: stage.getContent()
+  };
+}
+
 export default {
 
   title: "额外关卡",
@@ -66,7 +74,7 @@ export default {
     await stageloader.init('extra');
   },
 
-  getForm: () => ({
+  form: () => ({
     items: [
       {
         label: "Stages:",
@@ -78,18 +86,14 @@ export default {
     ],
   }),
 
-  getContent: (search) => {
-    let id = ~~search?.id;
-    let stage = stageloader.getStage('extra', id);
-    if (search && ('id' in search) && stage) {
-      let pokemon = stage.getPokemon();
-      return {
-        subtitle: pokemon.name,
-        content: stage.getContent(),
+  change: (location) => {
+    const id = ~~location.searchParams?.get('id');
+    if (location.searchParams?.has('id')) {
+      const stage = stageloader.getStage('extra', id);
+      if (stage) {
+        return createStage(stage, id);
       }
     }
-    else {
-      return createMainPage();
-    }
+    return createMainPage();
   },
 };

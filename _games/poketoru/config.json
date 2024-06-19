@@ -6,14 +6,17 @@
 
   ],
 
-  "breadcrumb": {
-    "items": [{
-      "level" : 0,
-      "text": "<i class=\"fas fa-home\"></i>",
+  "breadcrumb": [
+    {
+      "text": "数据手册",
+      "display": "<i class=\"fas fa-home\"></i>",
       "url": "/"
-    }],
-    "separator": "/"
-  },
+    },
+    {
+      "text": "宝可消消乐",
+      "url": "/poketoru/"
+    }
+  ],
 
   "navigation": [
     {
@@ -21,7 +24,7 @@
         {
           "url": "#!/",
           "icon": "home",
-          "title": "首页"
+          "title": "宝可消消乐"
         }
       ]
     },

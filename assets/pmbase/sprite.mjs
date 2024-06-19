@@ -1,34 +1,34 @@
 ﻿const modules = {
-  default : {
-    url : '',
-    width : 0,
-    height : 0,
-    col : 0,
-    keys : [],
+  default: {
+    url: '',
+    width: 0,
+    height: 0,
+    col: 0,
+    keys: [],
   }
 };
 
-const add = function(key, module) {
+const add = function (key, module) {
   modules[key] = module;
 };
 
-const get = function(key, value, displayWidth, title) {
-  if ( !(key in modules) ) return '';
+const get = function (key, value, displayWidth, title) {
+  if (!(key in modules)) return '';
 
   let module = modules[key];
 
   let index = value;
-  if ( module.keys ) {
-    index = module.keys.indexOf( value ) || 0;
-  } else if ( module.toIndex ) {
-    index = module.toIndex( value );
+  if (module.keys) {
+    index = module.keys.indexOf(value) || 0;
+  } else if (module.toIndex) {
+    index = module.toIndex(value);
   }
 
-  let scale   = displayWidth ? displayWidth / module.width : 1;
-  let width   = module.width * scale;
-  let height  = module.height * scale;
-  let x       = width * ( index % module.col );
-  let y       = height * Math.floor( index / module.col );
+  let scale = displayWidth ? displayWidth / module.width : 1;
+  let width = module.width * scale;
+  let height = module.height * scale;
+  let x = width * (index % module.col);
+  let y = height * Math.floor(index / module.col);
   let bgWidth = module.width * scale * module.col;
   let wrapperStyle = `
     height: ${height}px;
@@ -40,8 +40,8 @@ const get = function(key, value, displayWidth, title) {
       height: ${height}px;
       width: ${width}px;
     `;
-    
-  if( module.crop ) {
+
+  if (module.crop) {
     wrapperStyle = `
       height: ${module.crop[2]}px;
       width: ${module.crop[3]}px;
@@ -53,7 +53,7 @@ const get = function(key, value, displayWidth, title) {
     `;
   }
 
-  if( module.style ) {
+  if (module.style) {
     wrapperStyle += opt.style;
   }
 

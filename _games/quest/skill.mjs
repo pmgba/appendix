@@ -1,13 +1,20 @@
 import quest from './quest.mjs';
 
-function getLearnableSkills() {
-  return quest.data.get('skillDataResourcesSet').m_datas
-    .map((skillData, skillIndex) => [skillData, skillIndex, quest.data.get('skillname', skillIndex)])
-    .filter(([_, __, name]) => name);
-}
+await quest.database.load({
+  'pokemonDataSet': './data/auto/pokemon/PokemonDataSet.json',
+  'skillDataResourcesSet': './data/auto/skill/SkillDataResourcesSet.json',
+  'monsname': './text/zh-Hans/monsname.json',
+  'skillname': './text/zh-Hans/skillname.json',
+  'skillinfo': './text/zh-Hans/skillinfo.json',
+  'typename': './text/zh-Hans/typename.json',
+});
+
+const learnableSkills = quest.database.get('skillDataResourcesSet').m_datas
+  .map((skillData, skillIndex) => [skillData, skillIndex, quest.database.get('skillname', skillIndex)])
+  .filter(x => x[2]);
 
 function createMain() {
-  let list = databook.component.create({
+  const list = databook.component.create({
     type: 'list',
     columns: [
       {
@@ -28,13 +35,13 @@ function createMain() {
         width: '50%'
       }
     ],
-    list: getLearnableSkills()
+    list: learnableSkills
       .map(([skillData, skillIndex, skillName]) => [
         '',
         quest.getLink('skill', { id: skillIndex }, skillName),
         Math.round((skillData.m_damagePercent ?? 0) * 100),
         skillData.m_chargeSecond,
-        quest.data.get('skillinfo', skillIndex),
+        quest.database.get('skillinfo', skillIndex),
       ]),
     sortable: true,
     card: true,
@@ -44,18 +51,18 @@ function createMain() {
   };
 }
 
-function createSub(skillIndex, skillData) {
-  let info = databook.component.create({
+function createSub(skillData, skillIndex) {
+  const info = databook.component.create({
     type: 'info',
     list: [
       ['攻击力', Math.round((skillData.m_damagePercent ?? 0) * 100),],
-      ['等待时间', skillData.m_chargeSecond],
-      ['说明', quest.data.get('skillinfo', skillIndex).replaceAll('。', '。<br>')],
+      ['充能时间', skillData.m_chargeSecond],
+      ['说明', quest.database.get('skillinfo', skillIndex).replaceAll('。', '。<br>')],
     ],
     card: true,
   });
 
-  let pokemonList = databook.component.create({
+  const pokemonList = databook.component.create({
     type: 'list',
     columns: [
       {
@@ -74,11 +81,11 @@ function createSub(skillIndex, skillData) {
         text: '攻击力'
       }
     ],
-    list: quest.data.get('pokemonDataSet').m_datas
+    list: quest.database.get('pokemonDataSet').m_datas
       .filter(pokemonData => pokemonData.m_skillIDs.includes(skillIndex))
       .map(pokemonData => [
         quest.sprite.get('pokemon', pokemonData.m_monsterNo, 24),
-        quest.getLink('pokemon', { id: pokemonData.m_monsterNo }, quest.data.get('monsname')[pokemonData.m_monsterNo]),
+        quest.getLink('pokemon', { id: pokemonData.m_monsterNo }, quest.database.get('monsname')[pokemonData.m_monsterNo]),
         quest.getTypes([pokemonData.m_type1, pokemonData.m_type2]),
         pokemonData.m_hpBasis,
         pokemonData.m_attackBasis,
@@ -86,7 +93,7 @@ function createSub(skillIndex, skillData) {
     card: true,
   });
 
-  let html = `
+  const html = `
   <h3>招式</h3>
   ${info}
   <h3>宝可梦</h3>
@@ -102,24 +109,14 @@ export default {
 
   title: "招式",
 
-  init: async () => {
-    await quest.data.load({
-      'pokemonDataSet': './data/auto/pokemon/PokemonDataSet.json',
-      'skillDataResourcesSet': './data/auto/skill/SkillDataResourcesSet.json',
-      'monsname': './text/zh-Hans/monsname.json',
-      'skillname': './text/zh-Hans/skillname.json',
-      'skillinfo': './text/zh-Hans/skillinfo.json',
-      'typename': './text/zh-Hans/typename.json',
-    });
-  },
 
-  createForm: () => ({
+  form: () => ({
     items: [
       {
         label: "招式：",
         name: "id",
         type: "select",
-        data: getLearnableSkills()
+        data: learnableSkills
           .map(([_, skillIndex, skillName]) => [
             skillIndex,
             quest.getNumber(skillIndex, 3) + ' ' + skillName
@@ -128,13 +125,14 @@ export default {
     ],
   }),
 
-  getContent: (search) => {
-    let data = search?.id && quest.data.get('skillDataResourcesSet').m_datas[search.id];
-    if (data) {
-      return createSub(~~search.id, data);
+  change: (location) => {
+    const id = ~~location.searchParams?.get('id');
+    const data = learnableSkills.find(x => x[1] == id);
+    if (id > 0 && data) {
+      return createSub(data[0], id);
     }
     else {
       return createMain();
     }
   },
-}
+};

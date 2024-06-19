@@ -8,7 +8,7 @@ export default {
     await poketoru.init('pokemon', 'ability');
   },
 
-  getContent: (search) => {
+  content: (search) => {
     let megaList = poketoru.pokemon
       .filter(data => data.isMega)
       .sort((a, b) => a.dex - b.dex)
@@ -27,7 +27,7 @@ export default {
         
     let html = databook.component.create({
       type: 'list',
-      headers: [
+      columns: [
         '图标',
         '编号',
         '宝可梦',

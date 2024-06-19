@@ -41,7 +41,8 @@ defaults:
       layout: "article"
       requirements:
         modules:
-          - /assets/databook/js/databook.dynamic.mjs
+          - /assets/databook/mjs/databook.mjs
+          - /assets/databook/mjs/dynamic/dynamic.mjs
 
 ##################
 # Build settings #
@@ -66,9 +67,12 @@ remote_theme: "Fortelle/databook-theme"
 # to override the default setting.
 exclude:
   - docs/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - eslint.config.mjs
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/

@@ -1,20 +1,20 @@
 import quest from './quest.mjs';
 
 function calc() {
-  let pi = parseInt($('.calc__pokemon').val(), 10);
-  let lv = parseInt($('.calc__level').val(), 10);
-  let hp = parseInt($('.calc__hp').val(), 10);
-  let atk = parseInt($('.calc__atk').val(), 10);
+  const pi = parseInt(document.querySelector('.calc__pokemon').value, 10);
+  const lv = parseInt(document.querySelector('.calc__level').value, 10);
+  const hp = parseInt(document.querySelector('.calc__hp').value, 10);
+  const atk = parseInt(document.querySelector('.calc__atk').value, 10);
 
-  let data = quest.data.get('pokemonDataSet').m_datas[pi];
-  var bsHp = data.m_hpBasis;
-  var bsAtk = data.m_attackBasis;
+  const data = quest.database.get('pokemonDataSet').m_datas[pi];
+  const bsHp = data.m_hpBasis;
+  const bsAtk = data.m_attackBasis;
 
-  var ivHp = hp - bsHp - lv;
-  var ivAtk = atk - bsAtk - lv;
+  const ivHp = hp - bsHp - lv;
+  const ivAtk = atk - bsAtk - lv;
 
-  $('.calc__hpresult').val(ivHp);
-  $('.calc__atkresult').val(ivAtk);
+  document.querySelector('.calc__hpresult').value = ivHp;
+  document.querySelector('.calc__atkresult').value = ivAtk;
 }
 
 export default {
@@ -22,19 +22,20 @@ export default {
   title: "宝可梦",
 
   init: async () => {
-    await quest.data.load({
+    await quest.database.load({
       'pokemonDataSet': './data/auto/pokemon/PokemonDataSet.json',
       'monsname': './text/zh-Hans/monsname.json',
     });
   },
 
-  getContent: () => {
-    let select = quest.data.get('pokemonDataSet').m_datas
+  content: () => {
+    const select = quest.database.get('pokemonDataSet').m_datas
       .map(pokemonData => [
-        `<option value="${pokemonData.m_monsterNo}">${quest.getNumber(pokemonData.m_monsterNo)} ${quest.data.get('monsname', pokemonData.m_monsterNo)}</option>`
+        `<option value="${pokemonData.m_monsterNo}">${quest.getNumber(pokemonData.m_monsterNo)} ${quest.database.get('monsname', pokemonData.m_monsterNo)}</option>`
       ]).join();
 
-    let html = `
+    const html = `
+    <form>
 <div class="row">
 <div class="col-12 col-md-12">
   <div class="card card-primary border-primary">
@@ -79,14 +80,15 @@ export default {
   </div>
 </div>
 </div>
+</form>
     `;
     
-    let $html = $(html);
-    $('.calc__ok', $html).click(calc);
+    const $html = databook.util.parseHTML(html)[0];
+    $html.querySelector('.calc__ok').onclick = calc;
 
     return {
       title: '个体值计算器',
       content: $html,
     };
   },
-}
+};

@@ -1,9 +1,7 @@
 {
   "js": [
-    "./common.mjs"
   ],
   "css": [
-
   ],
   "navigation": [
     {

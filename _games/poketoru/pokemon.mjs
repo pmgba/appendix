@@ -18,7 +18,7 @@ function createSub(id) {
     type: 'info',
     image: pokemon.getSprite(),
     list: [
-      ['宝可梦', pokemon.name],
+      ['宝可梦', pokemon.fullname],
       ['编号', pokemon.dex],
       ['属性', poketoru.getType(pokemon.type)],
       ['攻击力', getPokemonAtk(pokemon)],
@@ -43,7 +43,7 @@ function createSub(id) {
   }
 
   let ability = pokemon.abilities
-    .map(x=>poketoru.abilities[x])
+    .map(x => poketoru.abilities[x])
     .map(data => {
       let prob = data.probabilities.map(x => x > 0 ? x + '%' : '-').join(' / ');
       let prob2 = data.skillEffect == 1
@@ -81,7 +81,7 @@ function createSub(id) {
         ],
         list: [
           [data.name,
-            data.desc]
+          data.desc]
         ],
         style: 'border-bottom: none;margin-bottom: 0;'
       });
@@ -121,7 +121,7 @@ function createSub(id) {
     .join('')
     ;
 
-  let totalexp = [...Array(pokemon.maxLevel - 1).keys()].map(i => poketoru.data.get('PokemonLevel', i + 1)[pokemon.group - 1]);
+  let totalexp = [...Array(pokemon.maxLevel - 1).keys()].map(i => poketoru.database.get('PokemonLevel', i + 1)[pokemon.group - 1]);
   let exp = totalexp.map((exp, j) => j > 0 ? exp - totalexp[j - 1] : exp);
   let level = databook.component.create({
     type: 'list',
@@ -142,7 +142,7 @@ function createSub(id) {
     list: [...Array(pokemon.maxLevel).keys()]
       .map(i => [
         i + 1,
-        poketoru.data.get('PokemonAttack', i)[pokemon.group - 1],
+        poketoru.database.get('PokemonAttack', i)[pokemon.group - 1],
         exp[i] ?? '-',
         totalexp[i] ?? '-',
       ]),
@@ -163,7 +163,7 @@ function createSub(id) {
   ${level}
     `;
   return {
-    subtitle: `${pokemon.name}`,
+    subtitle: `${pokemon.fullname}`,
     content: html,
   };
 }
@@ -176,7 +176,7 @@ export default {
     await poketoru.init('pokemon', 'ability');
   },
 
-  getForm: () => ({
+  form: () => ({
     items: [
       {
         label: "Pokemon:",
@@ -188,23 +188,21 @@ export default {
           .sort((a, b) => a.dex - b.dex)
           .map((data) => [
             data.id,
-            '#' + data.dex + ' ' + data.name
+            '#' + data.dex + ' ' + data.fullname
           ])
       }
     ],
   }),
 
 
-  getContent: (search) => {
-
-    let id = ~~search?.id;
-    if (id > 0) {
+  change: (location) => {
+    const id = ~~location.searchParams?.get('id');
+    if (id in poketoru.pokemon) {
       return createSub(id);
     }
     else {
       return { content: '' };
     }
-
   },
 };
 

@@ -1,13 +1,13 @@
 import sprite from './sprite.mjs';
-import data from './data.mjs';
+import database from './database.mjs';
 
 class Game {
   sprite;
-  data;
+  database;
 
   constructor() {
     this.sprite = sprite;
-    this.data = data;
+    this.database = database;
   }
 
 

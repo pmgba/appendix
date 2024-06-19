@@ -24,13 +24,13 @@ function createMainpage() {
   let table = Array.from(Array(24), () => new Array(14 - 4 + 1));
   for (let iy = 0; iy < 24; iy++) {
     for (let ix = 4; ix <= 14; ix++) {
-      let i = poketoru.data.get('EventStage').findIndex(x => x.EventLoop == 1 && x.LoopValue1 == iy && x.Sort == ix);
+      let i = poketoru.database.get('EventStage').findIndex(x => x.EventLoop == 1 && x.LoopValue1 == iy && x.Sort == ix);
       if (i == -1) {
         table[iy][ix] = "";
       } else {
-        let eventStage = poketoru.data.get('EventStage', i);
+        let eventStage = poketoru.database.get('EventStage', i);
         let stageId = (eventStage.Type == 6 || eventStage.Type == 7)
-          ? poketoru.data.get('EventStageExtendSetting', eventStage.Stages[0] + 1).StageId
+          ? poketoru.database.get('EventStageExtendSetting', eventStage.Stages[0] + 1).StageId
           : eventStage.Stages[0];
         let stage = stageloader.getStage('event', stageId);
         let pokemon = stage.getPokemon();
@@ -49,11 +49,11 @@ function createMainpage() {
   });
 
   for (let el = 2; el <= 4; el++) {
-    let eventStages = poketoru.data.get('EventStage').map((x, i) => x.EventLoop == el ? i : false).filter(x=>x!==false);
+    let eventStages = poketoru.database.get('EventStage').map((x, i) => x.EventLoop == el ? i : false).filter(x => x !== false);
     let list = eventStages.map(i => {
-      let eventStage = poketoru.data.get('EventStage', i);
+      let eventStage = poketoru.database.get('EventStage', i);
       let stageId = (eventStage.Type == 6 || eventStage.Type == 7)
-        ? poketoru.data.get('EventStageExtendSetting', eventStage.Stages[0] + 1).StageId
+        ? poketoru.database.get('EventStageExtendSetting', eventStage.Stages[0] + 1).StageId
         : eventStage.Stages[0];
       let stage = stageloader.getStage('event', stageId);
       let pokemon = stage.getPokemon();
@@ -83,12 +83,11 @@ function createMainpage() {
   };
 }
 
-function createSubpage(id) {
-  let eventStage = poketoru.data.get('EventStage', id);
+function createSubpage(eventStage) {
   let extend = [];
   let stages = [];
   if (eventStage.Type == 6 || eventStage.Type == 7) {
-    let extendSetting = poketoru.data.get('EventStageExtendSetting');
+    let extendSetting = poketoru.database.get('EventStageExtendSetting');
     for (let i = eventStage.Stages[0] + 1; i < extendSetting.length; i++) {
       if (extendSetting[i].StageId == 0) break;
       extend.push(extendSetting[i]);
@@ -239,21 +238,24 @@ function createSubpage(id) {
 
 export default {
 
-  title: "活动列表",
+  title: "活动",
 
   init: async () => {
     await poketoru.init('pokemon', 'ability', 'item');
     await stageloader.init('event');
-    await poketoru.data.load({
+    await poketoru.database.load({
       'EventStage': './data/EventStage.json',
       'EventStageExtendSetting': './data/EventStageExtendSetting.json',
     });
   },
 
-  getContent: (search) => {
-    let id = ~~search?.id;
-    if (search && ('id' in search)) {
-      return createSubpage(id);
+  change: (location) => {
+    if (location.searchParams?.has('id')) {
+      const id = ~~location.searchParams?.get('id');
+      const eventStage = poketoru.database.get('EventStage', id);
+      if (eventStage) {
+        return createSubpage(eventStage);
+      }
     }
     else {
       return createMainpage();

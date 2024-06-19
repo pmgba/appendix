@@ -1,16 +1,27 @@
 {
   "js": [
-    "./common.mjs"
   ],
   "css": [
-
   ],
+
+  "breadcrumb": [
+    {
+      "text": "数据手册",
+      "display": "<i class=\"fas fa-home\"></i>",
+      "url": "/"
+    },
+    {
+      "text": "宝可梦探险寻宝",
+      "url": "./"
+    }
+  ],
+
   "navigation": [
     {
       "items": [
         {
           "url": "./",
-          "title": "首页",
+          "title": "宝可梦探险寻宝",
           "icon": "home"
         }
       ]

@@ -16,6 +16,10 @@
         {
         "url": "#!/pokemon",
         "title": "宝可梦"
+        },
+        {
+        "url": "#!/kuni",
+        "title": "国家"
         }
       ]
     }
