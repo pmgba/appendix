@@ -10,6 +10,7 @@ copyright:   "2018-2021"
 language:    "zh-CN"
 npm_cdn:     "https://cdn.jsdelivr.net/npm/"
 scheme:      "light" # "dark", "light"
+baseurl:     "/appendix"
 port: 12345
 
 #################
